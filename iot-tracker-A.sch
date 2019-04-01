@@ -393,6 +393,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="V_BATT" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
 <text x="0" y="2.794" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
 </symbol>
+<symbol name="3.3V" urn="urn:adsk.eagle:symbol:39411/1" library_version="1">
+<description>&lt;h3&gt;3.3V Voltage Supply&lt;/h3&gt;</description>
+<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
+<pin name="3.3V" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
+<text x="0" y="2.794" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="GND" urn="urn:adsk.eagle:component:39439/1" prefix="GND" library_version="1">
@@ -414,6 +421,20 @@ You are welcome to use this library for commercial purposes. For attribution, we
 &lt;p&gt;Generic symbol for the battery input to a system.&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="V_BATT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="3.3V" urn="urn:adsk.eagle:component:39435/1" prefix="SUPPLY" library_version="1">
+<description>&lt;h3&gt;3.3V Supply Symbol&lt;/h3&gt;
+&lt;p&gt;Power supply symbol for a specifically-stated 3.3V source.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="3.3V" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -2000,35 +2021,38 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MCP1640T-I_CH
 <part name="GND3" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="R2" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="10KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="10k"/>
-<part name="R3" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="10KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="10k"/>
+<part name="R1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="10KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="10k"/>
 <part name="JP1" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP4Q" device="" package3d_urn="urn:adsk.eagle:package:15451/1"/>
 <part name="GND1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND8" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="R5" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="330KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="340k"/>
 <part name="R6" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="330KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="340k"/>
-<part name="R7" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="330KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="340k"/>
-<part name="R8" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="10KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="10k"/>
+<part name="R4" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="10KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="10k"/>
 <part name="GND14" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="C3" library="SparkFun-Capacitors" deviceset="10UF" device="-1206-6.3V-20%" value="100uF"/>
 <part name="C2" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="10UF" device="-0603-6.3V-20%" package3d_urn="urn:adsk.eagle:package:37414/1" value="10uF"/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
-<part name="C9" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
 <part name="C7" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
+<part name="C5" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
 <part name="C4" library="SparkFun-Capacitors" deviceset="10UF" device="-1206-6.3V-20%" value="100uF"/>
 <part name="D1" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-GREEN" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="GREEN"/>
-<part name="R9" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="100OHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="100"/>
+<part name="R3" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="100OHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="100"/>
 <part name="L1" library="MAMK2520T4R7M" deviceset="MAMK2520T4R7M" device=""/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="V_BATT" device=""/>
 <part name="GND4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="C13" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="10UF" device="-0603-6.3V-20%" package3d_urn="urn:adsk.eagle:package:37414/1" value="10uF"/>
+<part name="C9" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="10UF" device="-0603-6.3V-20%" package3d_urn="urn:adsk.eagle:package:37414/1" value="10uF"/>
 <part name="U3" library="MCP1640T-I_CHY" deviceset="MCP1640T-I_CHY" device=""/>
 <part name="GND6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="R11" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="680OHM" device="-0603-1/10W-5%" package3d_urn="urn:adsk.eagle:package:39650/1" value="976k"/>
-<part name="R12" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="680OHM" device="-0603-1/10W-5%" package3d_urn="urn:adsk.eagle:package:39650/1" value="562k"/>
+<part name="R7" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="680OHM" device="-0603-1/10W-5%" package3d_urn="urn:adsk.eagle:package:39650/1" value="976k"/>
+<part name="R8" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="680OHM" device="-0603-1/10W-5%" package3d_urn="urn:adsk.eagle:package:39650/1" value="562k"/>
 <part name="GND7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="C15" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="10UF" device="-0603-6.3V-20%" package3d_urn="urn:adsk.eagle:package:37414/1" value="10uF"/>
+<part name="C8" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="10UF" device="-0603-6.3V-20%" package3d_urn="urn:adsk.eagle:package:37414/1" value="10uF"/>
 <part name="GND9" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="V_BATT" device=""/>
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="V_BATT" device=""/>
+<part name="SUPPLY4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
+<part name="SUPPLY5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
+<part name="SUPPLY6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2046,17 +2070,17 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MCP1640T-I_CH
 <instance part="GND2" gate="1" x="55.88" y="45.72" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="55.88" y="45.466" size="1.778" layer="96" rot="MR0" align="top-center"/>
 </instance>
-<instance part="GND3" gate="1" x="45.72" y="17.78" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="45.72" y="17.526" size="1.778" layer="96" rot="MR0" align="top-center"/>
+<instance part="GND3" gate="1" x="45.72" y="7.62" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="45.72" y="7.366" size="1.778" layer="96" rot="MR0" align="top-center"/>
 </instance>
-<instance part="GND5" gate="1" x="35.56" y="-27.94" smashed="yes">
-<attribute name="VALUE" x="35.56" y="-28.194" size="1.778" layer="96" align="top-center"/>
+<instance part="GND5" gate="1" x="35.56" y="-30.48" smashed="yes">
+<attribute name="VALUE" x="35.56" y="-30.734" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="R2" gate="G$1" x="27.94" y="-17.78" smashed="yes">
 <attribute name="NAME" x="27.94" y="-16.256" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="27.94" y="-19.304" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="R3" gate="G$1" x="12.7" y="0" smashed="yes" rot="R270">
+<instance part="R1" gate="G$1" x="12.7" y="0" smashed="yes" rot="R270">
 <attribute name="NAME" x="7.62" y="1.524" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="7.62" y="-1.524" size="1.778" layer="96" font="vector" rot="MR180" align="top-center"/>
 </instance>
@@ -2070,15 +2094,15 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MCP1640T-I_CH
 <instance part="GND8" gate="1" x="-68.58" y="-30.48" smashed="yes">
 <attribute name="VALUE" x="-68.58" y="-30.734" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="R6" gate="G$1" x="48.26" y="58.42" smashed="yes" rot="MR0">
+<instance part="R5" gate="G$1" x="48.26" y="58.42" smashed="yes" rot="MR0">
 <attribute name="NAME" x="48.26" y="59.944" size="1.778" layer="95" font="vector" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="48.26" y="56.896" size="1.778" layer="96" font="vector" rot="MR0" align="top-center"/>
 </instance>
-<instance part="R7" gate="G$1" x="48.26" y="50.8" smashed="yes" rot="MR0">
+<instance part="R6" gate="G$1" x="48.26" y="50.8" smashed="yes" rot="MR0">
 <attribute name="NAME" x="48.26" y="52.324" size="1.778" layer="95" font="vector" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="48.26" y="49.276" size="1.778" layer="96" font="vector" rot="MR0" align="top-center"/>
 </instance>
-<instance part="R8" gate="G$1" x="-12.7" y="55.88" smashed="yes" rot="R270">
+<instance part="R4" gate="G$1" x="-12.7" y="55.88" smashed="yes" rot="R270">
 <attribute name="NAME" x="-11.176" y="55.88" size="1.778" layer="95" font="vector" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="-14.224" y="55.88" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
 </instance>
@@ -2097,11 +2121,11 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MCP1640T-I_CH
 <attribute name="NAME" x="4.064" y="20.701" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="4.064" y="15.621" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="C9" gate="G$1" x="55.88" y="71.12" smashed="yes" rot="MR180">
+<instance part="C7" gate="G$1" x="55.88" y="71.12" smashed="yes" rot="MR180">
 <attribute name="NAME" x="57.404" y="68.199" size="1.778" layer="95" font="vector" rot="MR180"/>
 <attribute name="VALUE" x="57.404" y="73.279" size="1.778" layer="96" font="vector" rot="MR180"/>
 </instance>
-<instance part="C7" gate="G$1" x="27.94" y="-7.62" smashed="yes" rot="MR90">
+<instance part="C5" gate="G$1" x="27.94" y="-7.62" smashed="yes" rot="MR90">
 <attribute name="NAME" x="26.924" y="-0.381" size="1.778" layer="95" font="vector" rot="MR180"/>
 <attribute name="VALUE" x="26.924" y="-2.921" size="1.778" layer="96" font="vector" rot="MR180"/>
 </instance>
@@ -2113,7 +2137,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MCP1640T-I_CH
 <attribute name="NAME" x="-52.832" y="-21.971" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="-52.832" y="-27.305" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
-<instance part="R9" gate="G$1" x="-60.96" y="-25.4" smashed="yes">
+<instance part="R3" gate="G$1" x="-60.96" y="-25.4" smashed="yes">
 <attribute name="NAME" x="-60.96" y="-23.876" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="-60.96" y="-26.924" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
@@ -2127,7 +2151,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MCP1640T-I_CH
 <instance part="GND4" gate="1" x="-129.54" y="55.88" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="-129.54" y="55.626" size="1.778" layer="96" rot="MR0" align="top-center"/>
 </instance>
-<instance part="C13" gate="G$1" x="-66.04" y="53.34" smashed="yes" rot="R180">
+<instance part="C9" gate="G$1" x="-66.04" y="53.34" smashed="yes" rot="R180">
 <attribute name="NAME" x="-67.564" y="50.419" size="1.778" layer="95" font="vector" rot="R180"/>
 <attribute name="VALUE" x="-67.564" y="55.499" size="1.778" layer="96" font="vector" rot="R180"/>
 </instance>
@@ -2138,18 +2162,18 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MCP1640T-I_CH
 <instance part="GND6" gate="1" x="-76.2" y="35.56" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="-76.2" y="35.306" size="1.778" layer="96" rot="MR0" align="top-center"/>
 </instance>
-<instance part="R11" gate="G$1" x="-88.9" y="55.88" smashed="yes" rot="R270">
+<instance part="R7" gate="G$1" x="-88.9" y="55.88" smashed="yes" rot="R270">
 <attribute name="NAME" x="-87.376" y="55.88" size="1.778" layer="95" font="vector" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="-90.424" y="55.88" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
 </instance>
-<instance part="R12" gate="G$1" x="-88.9" y="45.72" smashed="yes" rot="R270">
+<instance part="R8" gate="G$1" x="-88.9" y="45.72" smashed="yes" rot="R270">
 <attribute name="NAME" x="-87.376" y="45.72" size="1.778" layer="95" font="vector" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="-90.424" y="45.72" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
 </instance>
 <instance part="GND7" gate="1" x="-88.9" y="35.56" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="-88.9" y="35.306" size="1.778" layer="96" rot="MR0" align="top-center"/>
 </instance>
-<instance part="C15" gate="G$1" x="-76.2" y="53.34" smashed="yes" rot="R180">
+<instance part="C8" gate="G$1" x="-76.2" y="53.34" smashed="yes" rot="R180">
 <attribute name="NAME" x="-77.724" y="50.419" size="1.778" layer="95" font="vector" rot="R180"/>
 <attribute name="VALUE" x="-77.724" y="55.499" size="1.778" layer="96" font="vector" rot="R180"/>
 </instance>
@@ -2161,6 +2185,15 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MCP1640T-I_CH
 </instance>
 <instance part="SUPPLY3" gate="G$1" x="55.88" y="78.74" smashed="yes">
 <attribute name="VALUE" x="55.88" y="81.534" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY4" gate="G$1" x="-76.2" y="66.04" smashed="yes">
+<attribute name="VALUE" x="-76.2" y="68.834" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY5" gate="G$1" x="-7.62" y="22.86" smashed="yes">
+<attribute name="VALUE" x="-7.62" y="25.654" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY6" gate="G$1" x="-99.06" y="22.86" smashed="yes">
+<attribute name="VALUE" x="-99.06" y="25.654" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -2176,29 +2209,31 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MCP1640T-I_CH
 <wire x1="55.88" y1="50.8" x2="55.88" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="58.42" x2="55.88" y2="58.42" width="0.1524" layer="91"/>
 <junction x="55.88" y="58.42"/>
+<pinref part="R5" gate="G$1" pin="1"/>
 <pinref part="R6" gate="G$1" pin="1"/>
-<pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="53.34" y1="50.8" x2="55.88" y2="50.8" width="0.1524" layer="91"/>
 <junction x="55.88" y="50.8"/>
-<pinref part="C9" gate="G$1" pin="1"/>
+<pinref part="C7" gate="G$1" pin="1"/>
 <junction x="55.88" y="66.04"/>
 </segment>
 <segment>
 <pinref part="GND5" gate="1" pin="GND"/>
-<pinref part="U1" gate="G$1" pin="GND1"/>
-<pinref part="U1" gate="G$1" pin="GND0"/>
-<wire x1="2.54" y1="-25.4" x2="35.56" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="-27.94" x2="35.56" y2="-25.4" width="0.1524" layer="91"/>
+<pinref part="C5" gate="G$1" pin="1"/>
 <wire x1="35.56" y1="-25.4" x2="35.56" y2="-17.78" width="0.1524" layer="91"/>
-<junction x="35.56" y="-25.4"/>
-<pinref part="C7" gate="G$1" pin="1"/>
 <wire x1="35.56" y1="-17.78" x2="35.56" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="-7.62" x2="33.02" y2="-7.62" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="33.02" y1="-17.78" x2="35.56" y2="-17.78" width="0.1524" layer="91"/>
 <junction x="35.56" y="-17.78"/>
+<pinref part="U1" gate="G$1" pin="GND1"/>
+<pinref part="U1" gate="G$1" pin="GND0"/>
+<wire x1="2.54" y1="-25.4" x2="35.56" y2="-25.4" width="0.1524" layer="91"/>
+<junction x="2.54" y="-25.4"/>
+<junction x="35.56" y="-25.4"/>
 </segment>
 <segment>
-<pinref part="R8" gate="G$1" pin="2"/>
+<pinref part="R4" gate="G$1" pin="2"/>
 <pinref part="GND14" gate="1" pin="GND"/>
 <wire x1="-12.7" y1="50.8" x2="-12.7" y2="48.26" width="0.1524" layer="91"/>
 </segment>
@@ -2220,11 +2255,11 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MCP1640T-I_CH
 <junction x="22.86" y="22.86"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="33.02" y1="22.86" x2="45.72" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="22.86" x2="45.72" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="22.86" x2="45.72" y2="10.16" width="0.1524" layer="91"/>
 <junction x="33.02" y="22.86"/>
 </segment>
 <segment>
-<pinref part="R9" gate="G$1" pin="1"/>
+<pinref part="R3" gate="G$1" pin="1"/>
 <pinref part="GND8" gate="1" pin="GND"/>
 <wire x1="-66.04" y1="-25.4" x2="-68.58" y2="-25.4" width="0.1524" layer="91"/>
 <wire x1="-68.58" y1="-25.4" x2="-68.58" y2="-27.94" width="0.1524" layer="91"/>
@@ -2244,17 +2279,17 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MCP1640T-I_CH
 <wire x1="-129.54" y1="60.96" x2="-124.46" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R12" gate="G$1" pin="2"/>
+<pinref part="R8" gate="G$1" pin="2"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 <wire x1="-88.9" y1="40.64" x2="-88.9" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C15" gate="G$1" pin="1"/>
+<pinref part="C8" gate="G$1" pin="1"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 <wire x1="-76.2" y1="48.26" x2="-76.2" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C13" gate="G$1" pin="1"/>
+<pinref part="C9" gate="G$1" pin="1"/>
 <pinref part="GND9" gate="1" pin="GND"/>
 <wire x1="-66.04" y1="48.26" x2="-66.04" y2="38.1" width="0.1524" layer="91"/>
 </segment>
@@ -2264,7 +2299,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MCP1640T-I_CH
 <pinref part="U2" gate="G$1" pin="DONE"/>
 <wire x1="-5.08" y1="63.5" x2="-12.7" y2="63.5" width="0.1524" layer="91"/>
 <label x="-17.78" y="63.5" size="1.778" layer="95" rot="R180"/>
-<pinref part="R8" gate="G$1" pin="1"/>
+<pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="-12.7" y1="63.5" x2="-17.78" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="-12.7" y1="63.5" x2="-12.7" y2="60.96" width="0.1524" layer="91"/>
 <junction x="-12.7" y="63.5"/>
@@ -2346,9 +2381,9 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MCP1640T-I_CH
 <segment>
 <pinref part="U1" gate="G$1" pin="EN"/>
 <wire x1="12.7" y1="-7.62" x2="2.54" y2="-7.62" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="12.7" y1="-5.08" x2="12.7" y2="-7.62" width="0.1524" layer="91"/>
-<pinref part="C7" gate="G$1" pin="2"/>
+<pinref part="C5" gate="G$1" pin="2"/>
 <wire x1="12.7" y1="-7.62" x2="22.86" y2="-7.62" width="0.1524" layer="91"/>
 <junction x="12.7" y="-7.62"/>
 <wire x1="22.86" y1="-7.62" x2="25.4" y2="-7.62" width="0.1524" layer="91"/>
@@ -2361,10 +2396,10 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MCP1640T-I_CH
 <segment>
 <pinref part="U2" gate="G$1" pin="DELAY/M_DRV"/>
 <wire x1="40.64" y1="63.5" x2="40.64" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="R7" gate="G$1" pin="2"/>
+<pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="40.64" y1="58.42" x2="40.64" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="50.8" x2="43.18" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="R6" gate="G$1" pin="2"/>
+<pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="43.18" y1="58.42" x2="40.64" y2="58.42" width="0.1524" layer="91"/>
 <junction x="40.64" y="58.42"/>
 </segment>
@@ -2383,20 +2418,19 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MCP1640T-I_CH
 <label x="-134.62" y="50.8" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="3V3" class="0">
+<net name="3.3V" class="0">
 <segment>
 <wire x1="2.54" y1="15.24" x2="2.54" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="10.16" x2="12.7" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="3V3"/>
 <wire x1="2.54" y1="10.16" x2="2.54" y2="-5.08" width="0.1524" layer="91"/>
 <junction x="2.54" y="10.16"/>
-<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="12.7" y1="10.16" x2="12.7" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="10.16" x2="12.7" y2="15.24" width="0.1524" layer="91"/>
 <junction x="12.7" y="10.16"/>
 <wire x1="2.54" y1="10.16" x2="-7.62" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="-7.62" y1="10.16" x2="-7.62" y2="12.7" width="0.1524" layer="91"/>
-<label x="-7.62" y="12.7" size="1.778" layer="95" rot="MR0"/>
+<wire x1="-7.62" y1="10.16" x2="-7.62" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="12.7" y1="10.16" x2="22.86" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="10.16" x2="22.86" y2="15.24" width="0.1524" layer="91"/>
@@ -2406,29 +2440,31 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MCP1640T-I_CH
 <wire x1="22.86" y1="10.16" x2="33.02" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="10.16" x2="33.02" y2="15.24" width="0.1524" layer="91"/>
 <junction x="22.86" y="10.16"/>
+<pinref part="SUPPLY5" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="B" pin="2"/>
 <wire x1="-104.14" y1="20.32" x2="-99.06" y2="20.32" width="0.1524" layer="91"/>
-<label x="-99.06" y="20.32" size="1.778" layer="95"/>
+<pinref part="SUPPLY6" gate="G$1" pin="3.3V"/>
+<wire x1="-99.06" y1="20.32" x2="-99.06" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="VOUT"/>
-<pinref part="R11" gate="G$1" pin="1"/>
+<pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="-96.52" y1="60.96" x2="-88.9" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="-88.9" y1="60.96" x2="-76.2" y2="60.96" width="0.1524" layer="91"/>
 <junction x="-88.9" y="60.96"/>
-<pinref part="C15" gate="G$1" pin="2"/>
+<pinref part="C8" gate="G$1" pin="2"/>
 <wire x1="-76.2" y1="60.96" x2="-76.2" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="-76.2" y1="60.96" x2="-76.2" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="SUPPLY4" gate="G$1" pin="3.3V"/>
+<wire x1="-76.2" y1="66.04" x2="-76.2" y2="60.96" width="0.1524" layer="91"/>
 <junction x="-76.2" y="60.96"/>
-<label x="-76.2" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="V_BATT" class="0">
 <segment>
 <pinref part="SUPPLY1" gate="G$1" pin="V_BATT"/>
-<pinref part="C13" gate="G$1" pin="2"/>
+<pinref part="C9" gate="G$1" pin="2"/>
 <wire x1="-66.04" y1="78.74" x2="-66.04" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="L1" gate="G$1" pin="2"/>
 <wire x1="-66.04" y1="73.66" x2="-66.04" y2="55.88" width="0.1524" layer="91"/>
@@ -2449,7 +2485,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MCP1640T-I_CH
 <pinref part="U2" gate="G$1" pin="VDD"/>
 <wire x1="40.64" y1="68.58" x2="40.64" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="73.66" x2="55.88" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="C9" gate="G$1" pin="2"/>
+<pinref part="C7" gate="G$1" pin="2"/>
 <wire x1="55.88" y1="73.66" x2="55.88" y2="78.74" width="0.1524" layer="91"/>
 <junction x="55.88" y="73.66"/>
 <pinref part="SUPPLY3" gate="G$1" pin="V_BATT"/>
@@ -2464,7 +2500,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MCP1640T-I_CH
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="R9" gate="G$1" pin="2"/>
+<pinref part="R3" gate="G$1" pin="2"/>
 <pinref part="D1" gate="G$1" pin="C"/>
 <wire x1="-55.88" y1="-25.4" x2="-53.34" y2="-25.4" width="0.1524" layer="91"/>
 </segment>
@@ -2479,11 +2515,11 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MCP1640T-I_CH
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="R11" gate="G$1" pin="2"/>
+<pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="-88.9" y1="50.8" x2="-96.52" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="U3" gate="G$1" pin="VFB"/>
 <wire x1="-96.52" y1="50.8" x2="-96.52" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="R12" gate="G$1" pin="1"/>
+<pinref part="R8" gate="G$1" pin="1"/>
 <junction x="-88.9" y="50.8"/>
 </segment>
 </net>
