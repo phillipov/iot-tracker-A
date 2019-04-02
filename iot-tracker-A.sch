@@ -2088,8 +2088,8 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MCP1640T-I_CH
 <attribute name="NAME" x="-116.84" y="22.86" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-116.84" y="8.255" size="1.778" layer="96"/>
 </instance>
-<instance part="GND1" gate="1" x="-124.46" y="7.62" smashed="yes">
-<attribute name="VALUE" x="-124.46" y="7.366" size="1.778" layer="96" align="top-center"/>
+<instance part="GND1" gate="1" x="-83.82" y="17.78" smashed="yes">
+<attribute name="VALUE" x="-83.82" y="17.526" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="GND8" gate="1" x="-68.58" y="-30.48" smashed="yes">
 <attribute name="VALUE" x="-68.58" y="-30.734" size="1.778" layer="96" align="top-center"/>
@@ -2192,8 +2192,8 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MCP1640T-I_CH
 <instance part="SUPPLY5" gate="G$1" x="-7.62" y="22.86" smashed="yes">
 <attribute name="VALUE" x="-7.62" y="25.654" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY6" gate="G$1" x="-99.06" y="22.86" smashed="yes">
-<attribute name="VALUE" x="-99.06" y="25.654" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY6" gate="G$1" x="-137.16" y="12.7" smashed="yes">
+<attribute name="VALUE" x="-137.16" y="15.494" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -2236,12 +2236,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MCP1640T-I_CH
 <pinref part="R4" gate="G$1" pin="2"/>
 <pinref part="GND14" gate="1" pin="GND"/>
 <wire x1="-12.7" y1="50.8" x2="-12.7" y2="48.26" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND1" gate="1" pin="GND"/>
-<pinref part="JP1" gate="B" pin="7"/>
-<wire x1="-124.46" y1="10.16" x2="-124.46" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="-124.46" y1="12.7" x2="-119.38" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="2.54" y1="22.86" x2="12.7" y2="22.86" width="0.1524" layer="91"/>
@@ -2293,6 +2287,11 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MCP1640T-I_CH
 <pinref part="GND9" gate="1" pin="GND"/>
 <wire x1="-66.04" y1="48.26" x2="-66.04" y2="38.1" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="JP1" gate="B" pin="2"/>
+<pinref part="GND1" gate="1" pin="GND"/>
+<wire x1="-104.14" y1="20.32" x2="-83.82" y2="20.32" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="DONE" class="0">
 <segment>
@@ -2310,7 +2309,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MCP1640T-I_CH
 <label x="-43.18" y="-15.24" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="IO15" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO15"/>
 <pinref part="R2" gate="G$1" pin="1"/>
@@ -2319,53 +2318,46 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MCP1640T-I_CH
 </net>
 <net name="RX" class="0">
 <segment>
-<pinref part="JP1" gate="B" pin="1"/>
-<wire x1="-119.38" y1="20.32" x2="-124.46" y2="20.32" width="0.1524" layer="91"/>
-<label x="-124.46" y="20.32" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U1" gate="G$1" pin="RXD"/>
 <wire x1="-35.56" y1="-22.86" x2="-43.18" y2="-22.86" width="0.1524" layer="91"/>
 <label x="-43.18" y="-22.86" size="1.778" layer="95" rot="MR0"/>
 </segment>
-</net>
-<net name="TX" class="0">
 <segment>
 <pinref part="JP1" gate="B" pin="8"/>
 <wire x1="-104.14" y1="12.7" x2="-99.06" y2="12.7" width="0.1524" layer="91"/>
 <label x="-99.06" y="12.7" size="1.778" layer="95"/>
 </segment>
+</net>
+<net name="TX" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="TXD"/>
 <wire x1="-35.56" y1="-20.32" x2="-43.18" y2="-20.32" width="0.1524" layer="91"/>
 <label x="-43.18" y="-20.32" size="1.778" layer="95" rot="MR0"/>
 </segment>
+<segment>
+<pinref part="JP1" gate="B" pin="1"/>
+<wire x1="-119.38" y1="20.32" x2="-124.46" y2="20.32" width="0.1524" layer="91"/>
+<label x="-124.46" y="20.32" size="1.778" layer="95" rot="R180"/>
+</segment>
 </net>
 <net name="IO0" class="0">
-<segment>
-<pinref part="JP1" gate="B" pin="3"/>
-<wire x1="-119.38" y1="17.78" x2="-124.46" y2="17.78" width="0.1524" layer="91"/>
-<label x="-124.46" y="17.78" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="IO0"/>
 <wire x1="2.54" y1="-22.86" x2="10.16" y2="-22.86" width="0.1524" layer="91"/>
 <label x="10.16" y="-22.86" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP1" gate="B" pin="6"/>
+<wire x1="-104.14" y1="15.24" x2="-99.06" y2="15.24" width="0.1524" layer="91"/>
+<label x="-99.06" y="15.24" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="IO2" class="0">
-<segment>
-<pinref part="JP1" gate="B" pin="5"/>
-<wire x1="-119.38" y1="15.24" x2="-124.46" y2="15.24" width="0.1524" layer="91"/>
-<label x="-124.46" y="15.24" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="IO2"/>
 <wire x1="2.54" y1="-20.32" x2="10.16" y2="-20.32" width="0.1524" layer="91"/>
 <label x="10.16" y="-20.32" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="RST" class="0">
 <segment>
 <pinref part="JP1" gate="B" pin="4"/>
 <wire x1="-104.14" y1="17.78" x2="-99.06" y2="17.78" width="0.1524" layer="91"/>
@@ -2373,11 +2365,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MCP1640T-I_CH
 </segment>
 </net>
 <net name="CH_PD" class="0">
-<segment>
-<pinref part="JP1" gate="B" pin="6"/>
-<wire x1="-104.14" y1="15.24" x2="-99.06" y2="15.24" width="0.1524" layer="91"/>
-<label x="-99.06" y="15.24" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="EN"/>
 <wire x1="12.7" y1="-7.62" x2="2.54" y2="-7.62" width="0.1524" layer="91"/>
@@ -2391,8 +2378,13 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MCP1640T-I_CH
 <junction x="22.86" y="-7.62"/>
 <label x="22.86" y="2.54" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP1" gate="B" pin="3"/>
+<wire x1="-119.38" y1="17.78" x2="-124.46" y2="17.78" width="0.1524" layer="91"/>
+<label x="-124.46" y="17.78" size="1.778" layer="95" rot="R180"/>
+</segment>
 </net>
-<net name="N$1" class="0">
+<net name="DELAY" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="DELAY/M_DRV"/>
 <wire x1="40.64" y1="63.5" x2="40.64" y2="58.42" width="0.1524" layer="91"/>
@@ -2443,12 +2435,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MCP1640T-I_CH
 <pinref part="SUPPLY5" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="B" pin="2"/>
-<wire x1="-104.14" y1="20.32" x2="-99.06" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="SUPPLY6" gate="G$1" pin="3.3V"/>
-<wire x1="-99.06" y1="20.32" x2="-99.06" y2="22.86" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="U3" gate="G$1" pin="VOUT"/>
 <pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="-96.52" y1="60.96" x2="-88.9" y2="60.96" width="0.1524" layer="91"/>
@@ -2459,6 +2445,11 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MCP1640T-I_CH
 <pinref part="SUPPLY4" gate="G$1" pin="3.3V"/>
 <wire x1="-76.2" y1="66.04" x2="-76.2" y2="60.96" width="0.1524" layer="91"/>
 <junction x="-76.2" y="60.96"/>
+</segment>
+<segment>
+<pinref part="SUPPLY6" gate="G$1" pin="3.3V"/>
+<pinref part="JP1" gate="B" pin="7"/>
+<wire x1="-137.16" y1="12.7" x2="-119.38" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="V_BATT" class="0">
@@ -2491,21 +2482,21 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MCP1640T-I_CH
 <pinref part="SUPPLY3" gate="G$1" pin="V_BATT"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="IO4_LED" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO4"/>
 <pinref part="D1" gate="G$1" pin="A"/>
 <wire x1="-35.56" y1="-25.4" x2="-45.72" y2="-25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="LED_GND" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
 <pinref part="D1" gate="G$1" pin="C"/>
 <wire x1="-55.88" y1="-25.4" x2="-53.34" y2="-25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$7" class="0">
+<net name="SW" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="SW"/>
 <wire x1="-124.46" y1="63.5" x2="-124.46" y2="73.66" width="0.1524" layer="91"/>
@@ -2513,7 +2504,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MCP1640T-I_CH
 <wire x1="-124.46" y1="73.66" x2="-116.84" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$10" class="0">
+<net name="VFB" class="0">
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="-88.9" y1="50.8" x2="-96.52" y2="50.8" width="0.1524" layer="91"/>
@@ -2521,6 +2512,13 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MCP1640T-I_CH
 <wire x1="-96.52" y1="50.8" x2="-96.52" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="R8" gate="G$1" pin="1"/>
 <junction x="-88.9" y="50.8"/>
+</segment>
+</net>
+<net name="RST" class="0">
+<segment>
+<pinref part="JP1" gate="B" pin="5"/>
+<wire x1="-119.38" y1="15.24" x2="-124.46" y2="15.24" width="0.1524" layer="91"/>
+<label x="-124.46" y="15.24" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 </nets>
