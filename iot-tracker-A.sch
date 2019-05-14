@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.0">
+<eagle version="9.4.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2110,6 +2110,14 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MCP1640T-I_CH
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
+<class number="1" name="POWER" width="0.6096" drill="0">
+</class>
+<class number="2" name="SIGNAL" width="0.3048" drill="0">
+<clearance class="2" value="0.3048"/>
+</class>
+<class number="3" name="DATA" width="0" drill="0">
+<clearance class="3" value="0.3048"/>
+</class>
 </classes>
 <parts>
 <part name="U1" library="esp-wroom-02" deviceset="ESP-WROOM-02" device=""/>
@@ -2304,7 +2312,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MCP1640T-I_CH
 <busses>
 </busses>
 <nets>
-<net name="GND" class="0">
+<net name="GND" class="1">
 <segment>
 <pinref part="U2" gate="G$1" pin="GND"/>
 <wire x1="96.52" y1="40.64" x2="81.28" y2="40.64" width="0.1524" layer="91"/>
@@ -2405,7 +2413,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MCP1640T-I_CH
 <wire x1="-45.72" y1="-25.4" x2="-45.72" y2="-27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="DONE" class="0">
+<net name="DONE" class="2">
 <segment>
 <pinref part="U2" gate="G$1" pin="DONE"/>
 <wire x1="35.56" y1="38.1" x2="27.94" y2="38.1" width="0.1524" layer="91"/>
@@ -2421,14 +2429,14 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MCP1640T-I_CH
 <label x="-2.54" y="-40.64" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
-<net name="IO15" class="0">
+<net name="IO15" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO15"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="43.18" y1="-43.18" x2="55.88" y2="-43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="RX" class="0">
+<net name="RX" class="3">
 <segment>
 <pinref part="U1" gate="G$1" pin="RXD"/>
 <wire x1="5.08" y1="-48.26" x2="-2.54" y2="-48.26" width="0.1524" layer="91"/>
@@ -2440,7 +2448,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MCP1640T-I_CH
 <label x="-63.5" y="-30.48" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="TX" class="0">
+<net name="TX" class="3">
 <segment>
 <pinref part="U1" gate="G$1" pin="TXD"/>
 <wire x1="5.08" y1="-45.72" x2="-2.54" y2="-45.72" width="0.1524" layer="91"/>
@@ -2452,7 +2460,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MCP1640T-I_CH
 <label x="-63.5" y="-33.02" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="BOOT" class="0">
+<net name="BOOT" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="IO0"/>
 <wire x1="43.18" y1="-48.26" x2="50.8" y2="-48.26" width="0.1524" layer="91"/>
@@ -2464,7 +2472,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MCP1640T-I_CH
 <label x="-63.5" y="-17.78" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="EN" class="0">
+<net name="EN" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="EN"/>
 <wire x1="53.34" y1="-33.02" x2="43.18" y2="-33.02" width="0.1524" layer="91"/>
@@ -2487,7 +2495,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MCP1640T-I_CH
 <junction x="81.28" y="33.02"/>
 </segment>
 </net>
-<net name="DRVN" class="0">
+<net name="DRVN" class="2">
 <segment>
 <pinref part="U2" gate="G$1" pin="DRVN"/>
 <wire x1="35.56" y1="40.64" x2="27.94" y2="40.64" width="0.1524" layer="91"/>
@@ -2501,7 +2509,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MCP1640T-I_CH
 <label x="-93.98" y="25.4" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="3.3V" class="0">
+<net name="3.3V" class="1">
 <segment>
 <wire x1="43.18" y1="-10.16" x2="43.18" y2="-15.24" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="-15.24" x2="53.34" y2="-15.24" width="0.1524" layer="91"/>
@@ -2544,7 +2552,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MCP1640T-I_CH
 <pinref part="SUPPLY8" gate="G$1" pin="3.3V"/>
 </segment>
 </net>
-<net name="V_BATT" class="0">
+<net name="V_BATT" class="1">
 <segment>
 <pinref part="SUPPLY1" gate="G$1" pin="V_BATT"/>
 <pinref part="C9" gate="G$1" pin="2"/>
@@ -2594,7 +2602,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MCP1640T-I_CH
 <wire x1="-15.24" y1="-50.8" x2="-12.7" y2="-50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SW" class="0">
+<net name="SW" class="1">
 <segment>
 <pinref part="U3" gate="G$1" pin="SW"/>
 <wire x1="-83.82" y1="38.1" x2="-83.82" y2="48.26" width="0.1524" layer="91"/>
@@ -2612,7 +2620,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MCP1640T-I_CH
 <junction x="-48.26" y="25.4"/>
 </segment>
 </net>
-<net name="RST" class="0">
+<net name="RST" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="RST"/>
 <wire x1="5.08" y1="-38.1" x2="-2.54" y2="-38.1" width="0.1524" layer="91"/>
