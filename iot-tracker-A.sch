@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.1">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -977,30 +977,6 @@ It has a reduced top mask to make it harder to install upside-down.</description
 </device>
 </devices>
 </deviceset>
-<deviceset name="680OHM" urn="urn:adsk.eagle:component:39732/1" prefix="R" library_version="1">
-<description>&lt;h3&gt;680Ω resistor&lt;/h3&gt;
-&lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-0603-1/10W-5%" package="0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39650/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-09333"/>
-<attribute name="VALUE" value="680"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 </devicesets>
 </library>
 <library name="SparkFun-Capacitors">
@@ -1468,69 +1444,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
-<library name="MAMK2520T4R7M">
-<description>&lt;TAIYO YUDEN - MAMK2520T4R7M - INDUCTOR, SHIELDED, 4.7UH, 1.5A, SMD&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
-<packages>
-<package name="INDM2520X120N">
-<description>&lt;b&gt;MAMK2520&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-1.1" y="0" dx="2.1" dy="1.5" layer="1" rot="R90"/>
-<smd name="2" x="1.1" y="0" dx="2.1" dy="1.5" layer="1" rot="R90"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-2.1" y1="1.35" x2="2.1" y2="1.35" width="0.05" layer="51"/>
-<wire x1="2.1" y1="1.35" x2="2.1" y2="-1.35" width="0.05" layer="51"/>
-<wire x1="2.1" y1="-1.35" x2="-2.1" y2="-1.35" width="0.05" layer="51"/>
-<wire x1="-2.1" y1="-1.35" x2="-2.1" y2="1.35" width="0.05" layer="51"/>
-<wire x1="-1.25" y1="1" x2="1.25" y2="1" width="0.1" layer="51"/>
-<wire x1="1.25" y1="1" x2="1.25" y2="-1" width="0.1" layer="51"/>
-<wire x1="1.25" y1="-1" x2="-1.25" y2="-1" width="0.1" layer="51"/>
-<wire x1="-1.25" y1="-1" x2="-1.25" y2="1" width="0.1" layer="51"/>
-<wire x1="1.25" y1="1" x2="-1.25" y2="1" width="0.2" layer="21"/>
-<wire x1="-1.25" y1="-1" x2="1.25" y2="-1" width="0.2" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="MAMK2520T4R7M">
-<wire x1="5.08" y1="0" x2="7.62" y2="0" width="0.254" layer="94" curve="-175.4"/>
-<wire x1="7.62" y1="0" x2="10.16" y2="0" width="0.254" layer="94" curve="-175.4"/>
-<wire x1="10.16" y1="0" x2="12.7" y2="0" width="0.254" layer="94" curve="-175.4"/>
-<wire x1="12.7" y1="0" x2="15.24" y2="0" width="0.254" layer="94" curve="-175.4"/>
-<text x="16.51" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="16.51" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="1" x="0" y="0" visible="pad" length="middle"/>
-<pin name="2" x="20.32" y="0" visible="pad" length="middle" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="MAMK2520T4R7M" prefix="L">
-<description>&lt;b&gt;TAIYO YUDEN - MAMK2520T4R7M - INDUCTOR, SHIELDED, 4.7UH, 1.5A, SMD&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://mouser.componentsearchengine.com/Datasheets/2/MAMK2520T4R7M.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="MAMK2520T4R7M" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="INDM2520X120N">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="TAIYO YUDEN - MAMK2520T4R7M - INDUCTOR, SHIELDED, 4.7UH, 1.5A, SMD" constant="no"/>
-<attribute name="HEIGHT" value="1.2mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="TAIYO YUDEN" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="MAMK2520T4R7M" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-LED" urn="urn:adsk.eagle:library:529">
 <description>&lt;h3&gt;SparkFun LEDs&lt;/h3&gt;
 This library contains discrete LEDs for illumination or indication, but no displays.
@@ -1799,85 +1712,6 @@ LED</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="MCP1640T-I_CHY">
-<description>&lt;Microchip MCP1640T-I/CHY, Boost Converter, Step Up 0.35A Adjustable, 2  5.5 V, 575 kHz, 6-pin SOT-23&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
-<packages>
-<package name="SOT95P270X145-6N">
-<description>&lt;b&gt;(CHY)(SOT-23)&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-1.25" y="0.95" dx="1.4" dy="0.6" layer="1"/>
-<smd name="2" x="-1.25" y="0" dx="1.4" dy="0.6" layer="1"/>
-<smd name="3" x="-1.25" y="-0.95" dx="1.4" dy="0.6" layer="1"/>
-<smd name="4" x="1.25" y="-0.95" dx="1.4" dy="0.6" layer="1"/>
-<smd name="5" x="1.25" y="0" dx="1.4" dy="0.6" layer="1"/>
-<smd name="6" x="1.25" y="0.95" dx="1.4" dy="0.6" layer="1"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-2.2" y1="1.8" x2="2.2" y2="1.8" width="0.05" layer="51"/>
-<wire x1="2.2" y1="1.8" x2="2.2" y2="-1.8" width="0.05" layer="51"/>
-<wire x1="2.2" y1="-1.8" x2="-2.2" y2="-1.8" width="0.05" layer="51"/>
-<wire x1="-2.2" y1="-1.8" x2="-2.2" y2="1.8" width="0.05" layer="51"/>
-<wire x1="-0.775" y1="1.45" x2="0.775" y2="1.45" width="0.1" layer="51"/>
-<wire x1="0.775" y1="1.45" x2="0.775" y2="-1.45" width="0.1" layer="51"/>
-<wire x1="0.775" y1="-1.45" x2="-0.775" y2="-1.45" width="0.1" layer="51"/>
-<wire x1="-0.775" y1="-1.45" x2="-0.775" y2="1.45" width="0.1" layer="51"/>
-<wire x1="-0.775" y1="0.5" x2="0.175" y2="1.45" width="0.1" layer="51"/>
-<wire x1="-0.2" y1="1.45" x2="0.2" y2="1.45" width="0.2" layer="21"/>
-<wire x1="0.2" y1="1.45" x2="0.2" y2="-1.45" width="0.2" layer="21"/>
-<wire x1="0.2" y1="-1.45" x2="-0.2" y2="-1.45" width="0.2" layer="21"/>
-<wire x1="-0.2" y1="-1.45" x2="-0.2" y2="1.45" width="0.2" layer="21"/>
-<wire x1="-1.95" y1="1.6" x2="-0.55" y2="1.6" width="0.2" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="MCP1640T-I_CHY">
-<wire x1="5.08" y1="2.54" x2="22.86" y2="2.54" width="0.254" layer="94"/>
-<wire x1="22.86" y1="-7.62" x2="22.86" y2="2.54" width="0.254" layer="94"/>
-<wire x1="22.86" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
-<text x="24.13" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="24.13" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="SW" x="0" y="0" length="middle"/>
-<pin name="GND" x="0" y="-2.54" length="middle" direction="pwr"/>
-<pin name="EN" x="0" y="-5.08" length="middle"/>
-<pin name="VIN" x="27.94" y="0" length="middle" direction="in" rot="R180"/>
-<pin name="VOUT" x="27.94" y="-2.54" length="middle" direction="out" rot="R180"/>
-<pin name="VFB" x="27.94" y="-5.08" length="middle" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="MCP1640T-I_CHY" prefix="IC">
-<description>&lt;b&gt;Microchip MCP1640T-I/CHY, Boost Converter, Step Up 0.35A Adjustable, 2  5.5 V, 575 kHz, 6-pin SOT-23&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MCP1640T-I_CHY.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="MCP1640T-I_CHY" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT95P270X145-6N">
-<connects>
-<connect gate="G$1" pin="EN" pad="3"/>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="SW" pad="1"/>
-<connect gate="G$1" pin="VFB" pad="4"/>
-<connect gate="G$1" pin="VIN" pad="6"/>
-<connect gate="G$1" pin="VOUT" pad="5"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="Microchip MCP1640T-I/CHY, Boost Converter, Step Up 0.35A Adjustable, 2  5.5 V, 575 kHz, 6-pin SOT-23" constant="no"/>
-<attribute name="HEIGHT" value="1.45mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Microchip" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="MCP1640T-I/CHY" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="579-MCP1640TI/CHY" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=579-MCP1640TI%2FCHY" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="pinhead" urn="urn:adsk.eagle:library:325">
 <description>&lt;b&gt;Pin Header Connectors&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
@@ -2102,6 +1936,447 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MCP1640T-I_CH
 </deviceset>
 </devicesets>
 </library>
+<library name="IOT-Tracker-A">
+<packages>
+<package name="SON50P200X200X80-9N">
+<description>&lt;b&gt;DSG(S-PWSON-N8)&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.05" y="0.75" dx="0.7" dy="0.3" layer="1"/>
+<smd name="2" x="-1.05" y="0.25" dx="0.7" dy="0.3" layer="1"/>
+<smd name="3" x="-1.05" y="-0.25" dx="0.7" dy="0.3" layer="1"/>
+<smd name="4" x="-1.05" y="-0.75" dx="0.7" dy="0.3" layer="1"/>
+<smd name="5" x="1.05" y="-0.75" dx="0.7" dy="0.3" layer="1"/>
+<smd name="6" x="1.05" y="-0.25" dx="0.7" dy="0.3" layer="1"/>
+<smd name="7" x="1.05" y="0.25" dx="0.7" dy="0.3" layer="1"/>
+<smd name="8" x="1.05" y="0.75" dx="0.7" dy="0.3" layer="1"/>
+<smd name="9" x="0" y="0" dx="1.7" dy="1" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.625" y1="1.3" x2="1.625" y2="1.3" width="0.05" layer="51"/>
+<wire x1="1.625" y1="1.3" x2="1.625" y2="-1.3" width="0.05" layer="51"/>
+<wire x1="1.625" y1="-1.3" x2="-1.625" y2="-1.3" width="0.05" layer="51"/>
+<wire x1="-1.625" y1="-1.3" x2="-1.625" y2="1.3" width="0.05" layer="51"/>
+<wire x1="-1" y1="1" x2="1" y2="1" width="0.1" layer="51"/>
+<wire x1="1" y1="1" x2="1" y2="-1" width="0.1" layer="51"/>
+<wire x1="1" y1="-1" x2="-1" y2="-1" width="0.1" layer="51"/>
+<wire x1="-1" y1="-1" x2="-1" y2="1" width="0.1" layer="51"/>
+<wire x1="-1" y1="0.5" x2="-0.5" y2="1" width="0.1" layer="51"/>
+<circle x="-1.4" y="1.4" radius="0.125" width="0.25" layer="25"/>
+</package>
+<package name="INDC2520X120N">
+<description>&lt;b&gt;DFE252012P-R47M=P2&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.1" y="0" dx="2.2" dy="1.25" layer="1" rot="R90"/>
+<smd name="2" x="1.1" y="0" dx="2.2" dy="1.25" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.975" y1="1.35" x2="1.975" y2="1.35" width="0.05" layer="51"/>
+<wire x1="1.975" y1="1.35" x2="1.975" y2="-1.35" width="0.05" layer="51"/>
+<wire x1="1.975" y1="-1.35" x2="-1.975" y2="-1.35" width="0.05" layer="51"/>
+<wire x1="-1.975" y1="-1.35" x2="-1.975" y2="1.35" width="0.05" layer="51"/>
+<wire x1="-1.25" y1="1" x2="1.25" y2="1" width="0.1" layer="51"/>
+<wire x1="1.25" y1="1" x2="1.25" y2="-1" width="0.1" layer="51"/>
+<wire x1="1.25" y1="-1" x2="-1.25" y2="-1" width="0.1" layer="51"/>
+<wire x1="-1.25" y1="-1" x2="-1.25" y2="1" width="0.1" layer="51"/>
+<wire x1="0" y1="0.9" x2="0" y2="-0.9" width="0.2" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="TPS61021ADSGR">
+<wire x1="5.08" y1="2.54" x2="25.4" y2="2.54" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-17.78" x2="25.4" y2="2.54" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-17.78" x2="5.08" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-17.78" width="0.254" layer="94"/>
+<text x="26.67" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="26.67" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="AGND" x="0" y="0" length="middle" direction="pwr"/>
+<pin name="FB" x="0" y="-2.54" length="middle" direction="in"/>
+<pin name="VOUT_1" x="0" y="-5.08" length="middle" direction="pwr"/>
+<pin name="VOUT_2" x="0" y="-7.62" length="middle" direction="pwr"/>
+<pin name="PGND" x="15.24" y="-22.86" length="middle" direction="pwr" rot="R90"/>
+<pin name="VIN" x="30.48" y="0" length="middle" direction="in" rot="R180"/>
+<pin name="SW_2" x="30.48" y="-2.54" length="middle" direction="pwr" rot="R180"/>
+<pin name="SW_1" x="30.48" y="-5.08" length="middle" direction="pwr" rot="R180"/>
+<pin name="EN" x="30.48" y="-7.62" length="middle" direction="in" rot="R180"/>
+</symbol>
+<symbol name="DFE252012P-R47M=P2">
+<wire x1="5.08" y1="0" x2="7.62" y2="0" width="0.254" layer="94" curve="-175.4"/>
+<wire x1="7.62" y1="0" x2="10.16" y2="0" width="0.254" layer="94" curve="-175.4"/>
+<wire x1="10.16" y1="0" x2="12.7" y2="0" width="0.254" layer="94" curve="-175.4"/>
+<wire x1="12.7" y1="0" x2="15.24" y2="0" width="0.254" layer="94" curve="-175.4"/>
+<text x="16.51" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="16.51" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" visible="pad" length="middle"/>
+<pin name="2" x="20.32" y="0" visible="pad" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TPS61021ADSGR" prefix="PS">
+<description>&lt;b&gt;3-A Boost Converter with 0.5-V Ultra Low Input Voltage &lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tps61021a.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="TPS61021ADSGR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SON50P200X200X80-9N">
+<connects>
+<connect gate="G$1" pin="AGND" pad="1"/>
+<connect gate="G$1" pin="EN" pad="5"/>
+<connect gate="G$1" pin="FB" pad="2"/>
+<connect gate="G$1" pin="PGND" pad="9"/>
+<connect gate="G$1" pin="SW_1" pad="6"/>
+<connect gate="G$1" pin="SW_2" pad="7"/>
+<connect gate="G$1" pin="VIN" pad="8"/>
+<connect gate="G$1" pin="VOUT_1" pad="3"/>
+<connect gate="G$1" pin="VOUT_2" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="3-A Boost Converter with 0.5-V Ultra Low Input Voltage " constant="no"/>
+<attribute name="HEIGHT" value="0.8mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TPS61021ADSGR" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-TPS61021ADSGR" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=595-TPS61021ADSGR" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DFE252012P-R47M=P2" prefix="L">
+<description>&lt;b&gt;Toko DFE252012P Series Shielded Wire-wound SMD Inductor with a Powered Iron Core, 470 nH Wire-Wound 6.4A Idc&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/DFE252012P-R47M=P2.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="DFE252012P-R47M=P2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC2520X120N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Toko DFE252012P Series Shielded Wire-wound SMD Inductor with a Powered Iron Core, 470 nH Wire-Wound 6.4A Idc" constant="no"/>
+<attribute name="HEIGHT" value="1.2mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Murata Electronics" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="DFE252012P-R47M=P2" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="81-DFE252012P-R47MP2" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=81-DFE252012P-R47MP2" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="SparkFun-Resistors">
+<description>&lt;h3&gt;SparkFun Resistors&lt;/h3&gt;
+This library contains resistors. Reference designator:R. 
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="0603">
+<description>&lt;p&gt;&lt;b&gt;Generic 1608 (0603) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<wire x1="-1.6" y1="0.7" x2="1.6" y2="0.7" width="0.0508" layer="39"/>
+<wire x1="1.6" y1="0.7" x2="1.6" y2="-0.7" width="0.0508" layer="39"/>
+<wire x1="1.6" y1="-0.7" x2="-1.6" y2="-0.7" width="0.0508" layer="39"/>
+<wire x1="-1.6" y1="-0.7" x2="-1.6" y2="0.7" width="0.0508" layer="39"/>
+<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
+<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
+<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
+<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+</package>
+<package name="AXIAL-0.3">
+<description>&lt;h3&gt;AXIAL-0.3&lt;/h3&gt;
+&lt;p&gt;Commonly used for 1/4W through-hole resistors. 0.3" pitch between holes.&lt;/p&gt;</description>
+<wire x1="-2.54" y1="0.762" x2="2.54" y2="0.762" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="0.762" x2="2.54" y2="0" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-0.762" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="-0.762" x2="-2.54" y2="-0.762" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="-0.762" x2="-2.54" y2="0" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="0.762" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="0" x2="2.794" y2="0" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="0" x2="-2.794" y2="0" width="0.2032" layer="21"/>
+<pad name="P$1" x="-3.81" y="0" drill="0.9" diameter="1.8796"/>
+<pad name="P$2" x="3.81" y="0" drill="0.9" diameter="1.8796"/>
+<text x="0" y="1.016" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
+<text x="0" y="-1.016" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
+</package>
+<package name="AXIAL-0.1">
+<description>&lt;h3&gt;AXIAL-0.1&lt;/h3&gt;
+&lt;p&gt;Commonly used for 1/4W through-hole resistors. 0.1" pitch between holes.&lt;/p&gt;</description>
+<wire x1="0" y1="-0.762" x2="0" y2="0" width="0.2032" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="0.762" width="0.2032" layer="21"/>
+<wire x1="0.254" y1="0" x2="0" y2="0" width="0.2032" layer="21"/>
+<wire x1="0" y1="0" x2="-0.254" y2="0" width="0.2032" layer="21"/>
+<pad name="P$1" x="-1.27" y="0" drill="0.9" diameter="1.8796"/>
+<pad name="P$2" x="1.27" y="0" drill="0.9" diameter="1.8796"/>
+<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
+<text x="0" y="-1.143" size="0.6096" layer="21" font="vector" ratio="20" align="top-center">&gt;Value</text>
+</package>
+<package name="AXIAL-0.1-KIT">
+<description>&lt;h3&gt;AXIAL-0.1-KIT&lt;/h3&gt;
+&lt;p&gt;Commonly used for 1/4W through-hole resistors. 0.1" pitch between holes.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Warning:&lt;/b&gt; This is the KIT version of the AXIAL-0.1 package. This package has a smaller diameter top stop mask, which doesn't cover the diameter of the pad. This means only the bottom side of the pads' copper will be exposed. You'll only be able to solder to the bottom side.&lt;/p&gt;</description>
+<wire x1="0" y1="-0.762" x2="0" y2="0" width="0.2032" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="0.762" width="0.2032" layer="21"/>
+<wire x1="0.254" y1="0" x2="0" y2="0" width="0.2032" layer="21"/>
+<wire x1="0" y1="0" x2="-0.254" y2="0" width="0.2032" layer="21"/>
+<pad name="P$1" x="-1.27" y="0" drill="0.9" diameter="1.8796" stop="no"/>
+<pad name="P$2" x="1.27" y="0" drill="0.9" diameter="1.8796" stop="no"/>
+<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
+<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
+<circle x="-1.27" y="0" radius="0.4572" width="0" layer="29"/>
+<circle x="-1.27" y="0" radius="1.016" width="0" layer="30"/>
+<circle x="1.27" y="0" radius="1.016" width="0" layer="30"/>
+<circle x="-1.27" y="0" radius="0.4572" width="0" layer="29"/>
+<circle x="1.27" y="0" radius="0.4572" width="0" layer="29"/>
+</package>
+<package name="AXIAL-0.3-KIT">
+<description>&lt;h3&gt;AXIAL-0.3-KIT&lt;/h3&gt;
+&lt;p&gt;Commonly used for 1/4W through-hole resistors. 0.3" pitch between holes.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Warning:&lt;/b&gt; This is the KIT version of the AXIAL-0.3 package. This package has a smaller diameter top stop mask, which doesn't cover the diameter of the pad. This means only the bottom side of the pads' copper will be exposed. You'll only be able to solder to the bottom side.&lt;/p&gt;</description>
+<wire x1="-2.54" y1="1.27" x2="2.54" y2="1.27" width="0.254" layer="21"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="0" width="0.254" layer="21"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-1.27" width="0.254" layer="21"/>
+<wire x1="2.54" y1="-1.27" x2="-2.54" y2="-1.27" width="0.254" layer="21"/>
+<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="0" width="0.254" layer="21"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="1.27" width="0.254" layer="21"/>
+<wire x1="2.54" y1="0" x2="2.794" y2="0" width="0.254" layer="21"/>
+<wire x1="-2.54" y1="0" x2="-2.794" y2="0" width="0.254" layer="21"/>
+<pad name="P$1" x="-3.81" y="0" drill="1.016" diameter="2.032" stop="no"/>
+<pad name="P$2" x="3.81" y="0" drill="1.016" diameter="2.032" stop="no"/>
+<text x="0" y="1.524" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.524" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<polygon width="0.127" layer="30">
+<vertex x="3.8201" y="-0.9449" curve="-90"/>
+<vertex x="2.8652" y="-0.0152" curve="-90.011749"/>
+<vertex x="3.8176" y="0.9602" curve="-90"/>
+<vertex x="4.7676" y="-0.0178" curve="-90.024193"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="3.8176" y="-0.4369" curve="-90.012891"/>
+<vertex x="3.3731" y="-0.0127" curve="-90"/>
+<vertex x="3.8176" y="0.4546" curve="-90"/>
+<vertex x="4.2595" y="-0.0025" curve="-90.012967"/>
+</polygon>
+<polygon width="0.127" layer="30">
+<vertex x="-3.8075" y="-0.9525" curve="-90"/>
+<vertex x="-4.7624" y="-0.0228" curve="-90.011749"/>
+<vertex x="-3.81" y="0.9526" curve="-90"/>
+<vertex x="-2.86" y="-0.0254" curve="-90.024193"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="-3.81" y="-0.4445" curve="-90.012891"/>
+<vertex x="-4.2545" y="-0.0203" curve="-90"/>
+<vertex x="-3.81" y="0.447" curve="-90"/>
+<vertex x="-3.3681" y="-0.0101" curve="-90.012967"/>
+</polygon>
+</package>
+<package name="0402">
+<description>&lt;p&gt;&lt;b&gt;Generic 1005 (0402) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<wire x1="-0.2704" y1="0.2286" x2="0.2704" y2="0.2286" width="0.1524" layer="51"/>
+<wire x1="0.2704" y1="-0.2286" x2="-0.2704" y2="-0.2286" width="0.1524" layer="51"/>
+<wire x1="-1.2" y1="0.65" x2="1.2" y2="0.65" width="0.0508" layer="39"/>
+<wire x1="1.2" y1="0.65" x2="1.2" y2="-0.65" width="0.0508" layer="39"/>
+<wire x1="1.2" y1="-0.65" x2="-1.2" y2="-0.65" width="0.0508" layer="39"/>
+<wire x1="-1.2" y1="-0.65" x2="-1.2" y2="0.65" width="0.0508" layer="39"/>
+<smd name="1" x="-0.58" y="0" dx="0.85" dy="0.9" layer="1"/>
+<smd name="2" x="0.58" y="0" dx="0.85" dy="0.9" layer="1"/>
+<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.3048" layer="51"/>
+<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.3048" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+</package>
+</packages>
+<symbols>
+<symbol name="RESISTOR">
+<wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="-2.159" y1="1.016" x2="-1.524" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="-1.524" y1="-1.016" x2="-0.889" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="-0.889" y1="1.016" x2="-0.254" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="-0.254" y1="-1.016" x2="0.381" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="0.381" y1="1.016" x2="1.016" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="1.016" y1="-1.016" x2="1.651" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="1.651" y1="1.016" x2="2.286" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="2.286" y1="-1.016" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<text x="0" y="1.524" size="1.778" layer="95" font="vector" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.524" size="1.778" layer="96" font="vector" align="top-center">&gt;VALUE</text>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="300KOHM" prefix="R">
+<description>&lt;h3&gt;300kΩ resistor&lt;/h3&gt;
+&lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="-0603-1/10W-1%" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-10809"/>
+<attribute name="VALUE" value="300k"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="100KOHM" prefix="R">
+<description>&lt;h3&gt;100kΩ resistor&lt;/h3&gt;
+&lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-HORIZ-1/4W-1%" package="AXIAL-0.3">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-12184"/>
+<attribute name="VALUE" value="100k" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-VERT-1/4W-1%" package="AXIAL-0.1">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-12184"/>
+<attribute name="VALUE" value="100k"/>
+</technology>
+</technologies>
+</device>
+<device name="-VERT_KIT-1/4W-1%" package="AXIAL-0.1-KIT">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-12184"/>
+<attribute name="VALUE" value="100k" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-HORIZ_KIT-1/4W-1%" package="AXIAL-0.3-KIT">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-12184"/>
+<attribute name="VALUE" value="100k"/>
+</technology>
+</technologies>
+</device>
+<device name="-VERT-1/4W-5%" package="AXIAL-0.1">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-10686"/>
+<attribute name="VALUE" value="100k"/>
+</technology>
+</technologies>
+</device>
+<device name="-VERT_KIT-1/4W-5%" package="AXIAL-0.1-KIT">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-10686"/>
+<attribute name="VALUE" value="100k"/>
+</technology>
+</technologies>
+</device>
+<device name="-HORIZ-1/4W-5%" package="AXIAL-0.3">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-10686"/>
+<attribute name="VALUE" value="100k"/>
+</technology>
+</technologies>
+</device>
+<device name="-HORIZ_KIT-1/4W-5%" package="AXIAL-0.3-KIT">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-10686"/>
+<attribute name="VALUE" value="100k"/>
+</technology>
+</technologies>
+</device>
+<device name="-0603-1/10W-1%" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-07828"/>
+<attribute name="VALUE" value="100k"/>
+</technology>
+</technologies>
+</device>
+<device name="-0402-1/16W-1%" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-13495"/>
+<attribute name="VALUE" value="100K"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2140,26 +2415,22 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MCP1640T-I_CH
 <part name="C4" library="SparkFun-Capacitors" deviceset="10UF" device="-1206-6.3V-20%" value="100uF"/>
 <part name="D1" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-GREEN" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="GREEN"/>
 <part name="R3" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="100OHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="100"/>
-<part name="L1" library="MAMK2520T4R7M" deviceset="MAMK2520T4R7M" device=""/>
-<part name="SUPPLY1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="V_BATT" device=""/>
-<part name="GND4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="C9" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="10UF" device="-0603-6.3V-20%" package3d_urn="urn:adsk.eagle:package:37414/1" value="10uF"/>
-<part name="U3" library="MCP1640T-I_CHY" deviceset="MCP1640T-I_CHY" device=""/>
-<part name="GND6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="R7" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="680OHM" device="-0603-1/10W-5%" package3d_urn="urn:adsk.eagle:package:39650/1" value="976k"/>
-<part name="R8" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="680OHM" device="-0603-1/10W-5%" package3d_urn="urn:adsk.eagle:package:39650/1" value="562k"/>
-<part name="GND7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="C8" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="10UF" device="-0603-6.3V-20%" package3d_urn="urn:adsk.eagle:package:37414/1" value="10uF"/>
-<part name="GND9" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="V_BATT" device=""/>
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="V_BATT" device=""/>
-<part name="SUPPLY4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="SUPPLY5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X8" device="" package3d_urn="urn:adsk.eagle:package:22409/2"/>
 <part name="SUPPLY8" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="V_BATT" device=""/>
 <part name="GND11" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="PS1" library="IOT-Tracker-A" deviceset="TPS61021ADSGR" device=""/>
+<part name="SUPPLY6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="V_BATT" device=""/>
+<part name="GND10" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="R9" library="SparkFun-Resistors" deviceset="300KOHM" device="-0603-1/10W-1%" value="316k"/>
+<part name="R10" library="SparkFun-Resistors" deviceset="100KOHM" device="-0603-1/10W-1%" value="100k"/>
+<part name="GND12" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="L2" library="IOT-Tracker-A" deviceset="DFE252012P-R47M=P2" device="" value="0.47uH"/>
+<part name="SUPPLY7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2241,53 +2512,11 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MCP1640T-I_CH
 <attribute name="NAME" x="-20.32" y="-49.276" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="-20.32" y="-52.324" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="L1" gate="G$1" x="-76.2" y="48.26" smashed="yes">
-<attribute name="NAME" x="-59.69" y="54.61" size="1.778" layer="95" rot="MR0" align="center-left"/>
-<attribute name="VALUE" x="-59.69" y="52.07" size="1.778" layer="96" rot="MR0" align="center-left"/>
-</instance>
-<instance part="SUPPLY1" gate="G$1" x="-25.4" y="53.34" smashed="yes">
-<attribute name="VALUE" x="-25.4" y="56.134" size="1.778" layer="96" align="bottom-center"/>
-</instance>
-<instance part="GND4" gate="1" x="-88.9" y="30.48" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="-88.9" y="30.226" size="1.778" layer="96" rot="MR0" align="top-center"/>
-</instance>
-<instance part="C9" gate="G$1" x="-25.4" y="27.94" smashed="yes" rot="R180">
-<attribute name="NAME" x="-26.924" y="25.019" size="1.778" layer="95" font="vector" rot="R180"/>
-<attribute name="VALUE" x="-26.924" y="30.099" size="1.778" layer="96" font="vector" rot="R180"/>
-</instance>
-<instance part="U3" gate="G$1" x="-83.82" y="38.1" smashed="yes">
-<attribute name="NAME" x="-77.47" y="27.94" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-77.47" y="25.4" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="GND6" gate="1" x="-35.56" y="10.16" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="-35.56" y="9.906" size="1.778" layer="96" rot="MR0" align="top-center"/>
-</instance>
-<instance part="R7" gate="G$1" x="-48.26" y="30.48" smashed="yes" rot="R270">
-<attribute name="NAME" x="-46.736" y="30.48" size="1.778" layer="95" font="vector" rot="R270" align="bottom-center"/>
-<attribute name="VALUE" x="-49.784" y="30.48" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
-</instance>
-<instance part="R8" gate="G$1" x="-48.26" y="20.32" smashed="yes" rot="R270">
-<attribute name="NAME" x="-46.736" y="20.32" size="1.778" layer="95" font="vector" rot="R270" align="bottom-center"/>
-<attribute name="VALUE" x="-49.784" y="20.32" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
-</instance>
-<instance part="GND7" gate="1" x="-48.26" y="10.16" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="-48.26" y="9.906" size="1.778" layer="96" rot="MR0" align="top-center"/>
-</instance>
-<instance part="C8" gate="G$1" x="-35.56" y="27.94" smashed="yes" rot="R180">
-<attribute name="NAME" x="-37.084" y="25.019" size="1.778" layer="95" font="vector" rot="R180"/>
-<attribute name="VALUE" x="-37.084" y="30.099" size="1.778" layer="96" font="vector" rot="R180"/>
-</instance>
-<instance part="GND9" gate="1" x="-25.4" y="10.16" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="-25.4" y="9.906" size="1.778" layer="96" rot="MR0" align="top-center"/>
-</instance>
 <instance part="SUPPLY2" gate="G$1" x="35.56" y="53.34" smashed="yes">
 <attribute name="VALUE" x="35.56" y="56.134" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="SUPPLY3" gate="G$1" x="96.52" y="53.34" smashed="yes">
 <attribute name="VALUE" x="96.52" y="56.134" size="1.778" layer="96" align="bottom-center"/>
-</instance>
-<instance part="SUPPLY4" gate="G$1" x="-35.56" y="40.64" smashed="yes">
-<attribute name="VALUE" x="-35.56" y="43.434" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="SUPPLY5" gate="G$1" x="33.02" y="-2.54" smashed="yes">
 <attribute name="VALUE" x="33.02" y="0.254" size="1.778" layer="96" align="bottom-center"/>
@@ -2307,6 +2536,34 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MCP1640T-I_CH
 </instance>
 <instance part="GND1" gate="1" x="-45.72" y="-30.48" smashed="yes">
 <attribute name="VALUE" x="-45.72" y="-30.734" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="PS1" gate="G$1" x="-55.88" y="33.02" smashed="yes">
+<attribute name="NAME" x="-49.53" y="40.64" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-49.53" y="38.1" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="SUPPLY6" gate="G$1" x="-20.32" y="40.64" smashed="yes">
+<attribute name="VALUE" x="-20.32" y="43.434" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="GND10" gate="1" x="-40.64" y="5.08" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="-40.64" y="4.826" size="1.778" layer="96" rot="MR0" align="top-center"/>
+</instance>
+<instance part="R9" gate="G$1" x="-71.12" y="22.86" smashed="yes" rot="R90">
+<attribute name="NAME" x="-72.644" y="22.86" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="-69.596" y="22.86" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+</instance>
+<instance part="R10" gate="G$1" x="-71.12" y="38.1" smashed="yes" rot="R90">
+<attribute name="NAME" x="-72.644" y="38.1" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="-69.596" y="38.1" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+</instance>
+<instance part="GND12" gate="1" x="-60.96" y="35.56" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="-60.96" y="35.306" size="1.778" layer="96" rot="MR0" align="top-center"/>
+</instance>
+<instance part="L2" gate="G$1" x="-17.78" y="30.48" smashed="yes">
+<attribute name="NAME" x="-16.51" y="34.29" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-11.43" y="34.29" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="SUPPLY7" gate="G$1" x="-60.96" y="20.32" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="-60.96" y="23.114" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -2380,27 +2637,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MCP1640T-I_CH
 <junction x="-27.94" y="-43.18"/>
 </segment>
 <segment>
-<pinref part="GND4" gate="1" pin="GND"/>
-<pinref part="U3" gate="G$1" pin="GND"/>
-<wire x1="-88.9" y1="33.02" x2="-88.9" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="-88.9" y1="35.56" x2="-83.82" y2="35.56" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R8" gate="G$1" pin="2"/>
-<pinref part="GND7" gate="1" pin="GND"/>
-<wire x1="-48.26" y1="15.24" x2="-48.26" y2="12.7" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C8" gate="G$1" pin="1"/>
-<pinref part="GND6" gate="1" pin="GND"/>
-<wire x1="-35.56" y1="22.86" x2="-35.56" y2="12.7" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C9" gate="G$1" pin="1"/>
-<pinref part="GND9" gate="1" pin="GND"/>
-<wire x1="-25.4" y1="22.86" x2="-25.4" y2="12.7" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="JP1" gate="A" pin="6"/>
 <wire x1="-73.66" y1="-27.94" x2="-55.88" y2="-27.94" width="0.1524" layer="91"/>
 <wire x1="-55.88" y1="-27.94" x2="-55.88" y2="-35.56" width="0.1524" layer="91"/>
@@ -2411,6 +2647,22 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MCP1640T-I_CH
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="-73.66" y1="-25.4" x2="-45.72" y2="-25.4" width="0.1524" layer="91"/>
 <wire x1="-45.72" y1="-25.4" x2="-45.72" y2="-27.94" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="PS1" gate="G$1" pin="PGND"/>
+<pinref part="GND10" gate="1" pin="GND"/>
+<wire x1="-40.64" y1="10.16" x2="-40.64" y2="7.62" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R10" gate="G$1" pin="2"/>
+<wire x1="-71.12" y1="43.18" x2="-71.12" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="PS1" gate="G$1" pin="AGND"/>
+<wire x1="-71.12" y1="45.72" x2="-60.96" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="-60.96" y1="45.72" x2="-55.88" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="-55.88" y1="45.72" x2="-55.88" y2="33.02" width="0.1524" layer="91"/>
+<junction x="-60.96" y="45.72"/>
+<pinref part="GND12" gate="1" pin="GND"/>
+<wire x1="-60.96" y1="45.72" x2="-60.96" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DONE" class="2">
@@ -2503,10 +2755,9 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MCP1640T-I_CH
 <label x="27.94" y="53.34" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="U3" gate="G$1" pin="EN"/>
-<wire x1="-83.82" y1="33.02" x2="-83.82" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="-83.82" y1="25.4" x2="-93.98" y2="25.4" width="0.1524" layer="91"/>
-<label x="-93.98" y="25.4" size="1.778" layer="95" rot="R180"/>
+<pinref part="PS1" gate="G$1" pin="EN"/>
+<wire x1="-25.4" y1="25.4" x2="-20.32" y2="25.4" width="0.1524" layer="91"/>
+<label x="-20.32" y="25.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="3.3V" class="1">
@@ -2534,39 +2785,27 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MCP1640T-I_CH
 <pinref part="SUPPLY5" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
-<pinref part="U3" gate="G$1" pin="VOUT"/>
-<pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="-55.88" y1="35.56" x2="-48.26" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="-48.26" y1="35.56" x2="-35.56" y2="35.56" width="0.1524" layer="91"/>
-<junction x="-48.26" y="35.56"/>
-<pinref part="C8" gate="G$1" pin="2"/>
-<wire x1="-35.56" y1="35.56" x2="-35.56" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="SUPPLY4" gate="G$1" pin="3.3V"/>
-<wire x1="-35.56" y1="40.64" x2="-35.56" y2="35.56" width="0.1524" layer="91"/>
-<junction x="-35.56" y="35.56"/>
-</segment>
-<segment>
 <pinref part="JP1" gate="A" pin="1"/>
 <wire x1="-73.66" y1="-15.24" x2="-66.04" y2="-15.24" width="0.1524" layer="91"/>
 <wire x1="-66.04" y1="-15.24" x2="-66.04" y2="-12.7" width="0.1524" layer="91"/>
 <pinref part="SUPPLY8" gate="G$1" pin="3.3V"/>
 </segment>
+<segment>
+<pinref part="PS1" gate="G$1" pin="VOUT_1"/>
+<wire x1="-55.88" y1="27.94" x2="-55.88" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="-55.88" y1="25.4" x2="-55.88" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="-55.88" y1="15.24" x2="-60.96" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="R9" gate="G$1" pin="1"/>
+<wire x1="-60.96" y1="15.24" x2="-71.12" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="-71.12" y1="15.24" x2="-71.12" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="PS1" gate="G$1" pin="VOUT_2"/>
+<junction x="-55.88" y="25.4"/>
+<wire x1="-60.96" y1="15.24" x2="-60.96" y2="20.32" width="0.1524" layer="91"/>
+<junction x="-60.96" y="15.24"/>
+<pinref part="SUPPLY7" gate="G$1" pin="3.3V"/>
+</segment>
 </net>
 <net name="V_BATT" class="1">
-<segment>
-<pinref part="SUPPLY1" gate="G$1" pin="V_BATT"/>
-<pinref part="C9" gate="G$1" pin="2"/>
-<wire x1="-25.4" y1="53.34" x2="-25.4" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="L1" gate="G$1" pin="2"/>
-<wire x1="-25.4" y1="48.26" x2="-25.4" y2="30.48" width="0.1524" layer="91"/>
-<junction x="-25.4" y="48.26"/>
-<wire x1="-55.88" y1="48.26" x2="-48.26" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$1" pin="VIN"/>
-<wire x1="-48.26" y1="48.26" x2="-25.4" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="-55.88" y1="38.1" x2="-48.26" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="-48.26" y1="38.1" x2="-48.26" y2="48.26" width="0.1524" layer="91"/>
-<junction x="-48.26" y="48.26"/>
-</segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="EN/ONE_SHOT"/>
 <wire x1="35.56" y1="43.18" x2="35.56" y2="53.34" width="0.1524" layer="91"/>
@@ -2587,6 +2826,17 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MCP1640T-I_CH
 <wire x1="-53.34" y1="-12.7" x2="-53.34" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="-53.34" y1="-22.86" x2="-73.66" y2="-22.86" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="PS1" gate="G$1" pin="VIN"/>
+<pinref part="SUPPLY6" gate="G$1" pin="V_BATT"/>
+<wire x1="-25.4" y1="33.02" x2="-20.32" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="33.02" x2="-20.32" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="L2" gate="G$1" pin="2"/>
+<wire x1="-20.32" y1="38.1" x2="-20.32" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="30.48" x2="2.54" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="38.1" x2="-20.32" y2="38.1" width="0.1524" layer="91"/>
+<junction x="-20.32" y="38.1"/>
+</segment>
 </net>
 <net name="IO4_LED" class="0">
 <segment>
@@ -2602,24 +2852,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MCP1640T-I_CH
 <wire x1="-15.24" y1="-50.8" x2="-12.7" y2="-50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SW" class="1">
-<segment>
-<pinref part="U3" gate="G$1" pin="SW"/>
-<wire x1="-83.82" y1="38.1" x2="-83.82" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="L1" gate="G$1" pin="1"/>
-<wire x1="-83.82" y1="48.26" x2="-76.2" y2="48.26" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="VFB" class="0">
-<segment>
-<pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="-48.26" y1="25.4" x2="-55.88" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$1" pin="VFB"/>
-<wire x1="-55.88" y1="25.4" x2="-55.88" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="R8" gate="G$1" pin="1"/>
-<junction x="-48.26" y="25.4"/>
-</segment>
-</net>
 <net name="RST" class="2">
 <segment>
 <pinref part="U1" gate="G$1" pin="RST"/>
@@ -2630,6 +2862,27 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MCP1640T-I_CH
 <pinref part="JP1" gate="A" pin="3"/>
 <wire x1="-73.66" y1="-20.32" x2="-63.5" y2="-20.32" width="0.1524" layer="91"/>
 <label x="-63.5" y="-20.32" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="PS1" gate="G$1" pin="FB"/>
+<wire x1="-55.88" y1="30.48" x2="-71.12" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="R10" gate="G$1" pin="1"/>
+<wire x1="-71.12" y1="30.48" x2="-71.12" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="R9" gate="G$1" pin="2"/>
+<wire x1="-71.12" y1="27.94" x2="-71.12" y2="30.48" width="0.1524" layer="91"/>
+<junction x="-71.12" y="30.48"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="PS1" gate="G$1" pin="SW_1"/>
+<pinref part="PS1" gate="G$1" pin="SW_2"/>
+<wire x1="-25.4" y1="27.94" x2="-25.4" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="L2" gate="G$1" pin="1"/>
+<wire x1="-25.4" y1="30.48" x2="-17.78" y2="30.48" width="0.1524" layer="91"/>
+<junction x="-25.4" y="30.48"/>
 </segment>
 </net>
 </nets>
