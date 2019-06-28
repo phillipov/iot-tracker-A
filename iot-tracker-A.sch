@@ -2401,13 +2401,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
-<class number="1" name="POWER" width="0.6096" drill="0">
+<class number="1" name="POWER" width="0" drill="0">
 </class>
-<class number="2" name="SIGNAL" width="0.1524" drill="0">
-<clearance class="2" value="0.1524"/>
+<class number="2" name="SIGNAL" width="0" drill="0">
 </class>
 <class number="3" name="DATA" width="0" drill="0">
-<clearance class="3" value="0.1524"/>
 </class>
 </classes>
 <parts>
