@@ -2745,9 +2745,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="-2.54" y="-48.26" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="7"/>
-<wire x1="-73.66" y1="-30.48" x2="-63.5" y2="-30.48" width="0.1524" layer="91"/>
-<label x="-63.5" y="-30.48" size="1.778" layer="95"/>
+<pinref part="JP1" gate="A" pin="8"/>
+<wire x1="-73.66" y1="-33.02" x2="-63.5" y2="-33.02" width="0.1524" layer="91"/>
+<label x="-63.5" y="-33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TX" class="3">
@@ -2757,9 +2757,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="-2.54" y="-45.72" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="8"/>
-<wire x1="-73.66" y1="-33.02" x2="-63.5" y2="-33.02" width="0.1524" layer="91"/>
-<label x="-63.5" y="-33.02" size="1.778" layer="95"/>
+<pinref part="JP1" gate="A" pin="7"/>
+<wire x1="-73.66" y1="-30.48" x2="-63.5" y2="-30.48" width="0.1524" layer="91"/>
+<label x="-63.5" y="-30.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BOOT" class="2">
