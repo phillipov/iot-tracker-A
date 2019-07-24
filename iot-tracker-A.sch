@@ -1951,6 +1951,46 @@ LED</description>
 <wire x1="3.65" y1="2.15" x2="-4.3" y2="2.15" width="0.2" layer="21"/>
 <wire x1="-3.65" y1="-2.15" x2="3.65" y2="-2.15" width="0.2" layer="21"/>
 </package>
+<package name="SON50P260X260X50-11N">
+<description>&lt;b&gt;SOT1197-1(DFN2626-10)&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.25" y="1" dx="0.8" dy="0.3" layer="1"/>
+<smd name="2" x="-1.25" y="0.5" dx="0.8" dy="0.3" layer="1"/>
+<smd name="3" x="-1.25" y="0" dx="0.8" dy="0.3" layer="1"/>
+<smd name="4" x="-1.25" y="-0.5" dx="0.8" dy="0.3" layer="1"/>
+<smd name="5" x="-1.25" y="-1" dx="0.8" dy="0.3" layer="1"/>
+<smd name="6" x="1.25" y="-1" dx="0.8" dy="0.3" layer="1"/>
+<smd name="7" x="1.25" y="-0.5" dx="0.8" dy="0.3" layer="1"/>
+<smd name="8" x="1.25" y="0" dx="0.8" dy="0.3" layer="1"/>
+<smd name="9" x="1.25" y="0.5" dx="0.8" dy="0.3" layer="1"/>
+<smd name="10" x="1.25" y="1" dx="0.8" dy="0.3" layer="1"/>
+<smd name="11" x="0" y="0" dx="2.2" dy="1.3" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.9" y1="1.6" x2="1.9" y2="1.6" width="0.05" layer="51"/>
+<wire x1="1.9" y1="1.6" x2="1.9" y2="-1.6" width="0.05" layer="51"/>
+<wire x1="1.9" y1="-1.6" x2="-1.9" y2="-1.6" width="0.05" layer="51"/>
+<wire x1="-1.9" y1="-1.6" x2="-1.9" y2="1.6" width="0.05" layer="51"/>
+<wire x1="-1.3" y1="1.3" x2="1.3" y2="1.3" width="0.1" layer="51"/>
+<wire x1="1.3" y1="1.3" x2="1.3" y2="-1.3" width="0.1" layer="51"/>
+<wire x1="1.3" y1="-1.3" x2="-1.3" y2="-1.3" width="0.1" layer="51"/>
+<wire x1="-1.3" y1="-1.3" x2="-1.3" y2="1.3" width="0.1" layer="51"/>
+<wire x1="-1.3" y1="0.65" x2="-0.65" y2="1.3" width="0.1" layer="51"/>
+<circle x="-1.65" y="1.65" radius="0.125" width="0.25" layer="25"/>
+</package>
+<package name="FC-135_1">
+<description>&lt;b&gt;FC-135_1&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.25" y="0" dx="1.8" dy="1" layer="1" rot="R90"/>
+<smd name="2" x="1.25" y="0" dx="1.8" dy="1" layer="1" rot="R90"/>
+<text x="-0.44328125" y="1.533659375" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="-0.44328125" y="1.533659375" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.6" y1="0.75" x2="1.6" y2="0.75" width="0.2" layer="51"/>
+<wire x1="1.6" y1="0.75" x2="1.6" y2="-0.75" width="0.2" layer="51"/>
+<wire x1="1.6" y1="-0.75" x2="-1.6" y2="-0.75" width="0.2" layer="51"/>
+<wire x1="-1.6" y1="-0.75" x2="-1.6" y2="0.75" width="0.2" layer="51"/>
+<circle x="-2.125" y="-0.157" radius="0.142" width="0.2" layer="25"/>
+</package>
 </packages>
 <symbols>
 <symbol name="TPS61021ADSGR">
@@ -1999,6 +2039,35 @@ LED</description>
 <vertex x="6.858" y="-2.54"/>
 <vertex x="6.858" y="2.54"/>
 </polygon>
+</symbol>
+<symbol name="PCF85263ATL_AX">
+<wire x1="5.08" y1="2.54" x2="45.72" y2="2.54" width="0.254" layer="94"/>
+<wire x1="45.72" y1="-17.78" x2="45.72" y2="2.54" width="0.254" layer="94"/>
+<wire x1="45.72" y1="-17.78" x2="5.08" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-17.78" width="0.254" layer="94"/>
+<text x="46.99" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="46.99" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="OSCI" x="0" y="0" length="middle"/>
+<pin name="OSCO" x="0" y="-2.54" length="middle"/>
+<pin name="VBAT" x="0" y="-5.08" length="middle"/>
+<pin name="TS(CLK/!INTB)" x="0" y="-7.62" length="middle" direction="in"/>
+<pin name="VSS" x="0" y="-10.16" length="middle" direction="pwr"/>
+<pin name="EP" x="25.4" y="-22.86" length="middle" rot="R90"/>
+<pin name="VDD" x="50.8" y="0" length="middle" direction="pwr" rot="R180"/>
+<pin name="!INTA(CLK)" x="50.8" y="-2.54" length="middle" direction="in" rot="R180"/>
+<pin name="CLK" x="50.8" y="-5.08" length="middle" direction="in" rot="R180"/>
+<pin name="SCL" x="50.8" y="-7.62" length="middle" rot="R180"/>
+<pin name="SDA" x="50.8" y="-10.16" length="middle" rot="R180"/>
+</symbol>
+<symbol name="FC-135_32.7680KA-AG3">
+<wire x1="5.08" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<text x="16.51" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="16.51" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" length="middle"/>
+<pin name="2" x="20.32" y="0" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2079,6 +2148,65 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/427/593d-239975.pdf"&gt; 
 <attribute name="MANUFACTURER_PART_NUMBER" value="593D227X0010E2TE3" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PCF85263ATL_AX" prefix="IC">
+<description>&lt;b&gt;Real Time Clock Real Time Clock (I2C) Serial&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/PCF85263ATL_AX.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="PCF85263ATL_AX" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SON50P260X260X50-11N">
+<connects>
+<connect gate="G$1" pin="!INTA(CLK)" pad="9"/>
+<connect gate="G$1" pin="CLK" pad="8"/>
+<connect gate="G$1" pin="EP" pad="11"/>
+<connect gate="G$1" pin="OSCI" pad="1"/>
+<connect gate="G$1" pin="OSCO" pad="2"/>
+<connect gate="G$1" pin="SCL" pad="7"/>
+<connect gate="G$1" pin="SDA" pad="6"/>
+<connect gate="G$1" pin="TS(CLK/!INTB)" pad="4"/>
+<connect gate="G$1" pin="VBAT" pad="3"/>
+<connect gate="G$1" pin="VDD" pad="10"/>
+<connect gate="G$1" pin="VSS" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Real Time Clock Real Time Clock (I2C) Serial" constant="no"/>
+<attribute name="HEIGHT" value="0.5mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Nexperia" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PCF85263ATL/AX" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="771-PCF85263ATL/AX" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=771-PCF85263ATL%2FAX" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FC-135_32.7680KA-AG3" prefix="Y">
+<description>&lt;b&gt;Crystals 32.768KHz 20ppm 7.0pF -40C +85C&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/FC-135 32.7680KA-AG3.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="FC-135_32.7680KA-AG3" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="FC-135_1">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Crystals 32.768KHz 20ppm 7.0pF -40C +85C" constant="no"/>
+<attribute name="HEIGHT" value="mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Epson Timing" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="FC-135 32.7680KA-AG3" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="732-FC135-32.76KAAG3" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=732-FC135-32.76KAAG3" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -2450,6 +2578,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C3" library="IOT-Tracker-A" deviceset="593D227X0010E2TE3" device="" value="220uF"/>
 <part name="R3" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="1k"/>
 <part name="C6" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="10UF" device="-0603-6.3V-20%" package3d_urn="urn:adsk.eagle:package:37414/1" value="10uF"/>
+<part name="IC1" library="IOT-Tracker-A" deviceset="PCF85263ATL_AX" device=""/>
+<part name="Y1" library="IOT-Tracker-A" deviceset="FC-135_32.7680KA-AG3" device=""/>
+<part name="SUPPLY1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="V_BATT" device=""/>
+<part name="GND7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="SUPPLY4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
+<part name="C10" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
+<part name="C11" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
+<part name="GND9" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2602,6 +2738,34 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="-1.016" y="35.941" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="-1.016" y="30.861" size="1.778" layer="96" font="vector"/>
 </instance>
+<instance part="IC1" gate="G$1" x="152.4" y="35.56" smashed="yes">
+<attribute name="NAME" x="171.45" y="43.18" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="171.45" y="40.64" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="Y1" gate="G$1" x="167.64" y="45.72" smashed="yes" rot="R180">
+<attribute name="NAME" x="147.32" y="53.34" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="147.32" y="50.8" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="SUPPLY1" gate="G$1" x="139.7" y="38.1" smashed="yes">
+<attribute name="VALUE" x="139.7" y="40.894" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="GND7" gate="1" x="139.7" y="15.24" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="139.7" y="14.986" size="1.778" layer="96" rot="MR0" align="top-center"/>
+</instance>
+<instance part="SUPPLY4" gate="G$1" x="220.98" y="38.1" smashed="yes">
+<attribute name="VALUE" x="220.98" y="40.894" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="C10" gate="G$1" x="129.54" y="27.94" smashed="yes" rot="R180">
+<attribute name="NAME" x="128.016" y="25.019" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="128.016" y="30.099" size="1.778" layer="96" font="vector" rot="R180"/>
+</instance>
+<instance part="C11" gate="G$1" x="220.98" y="30.48" smashed="yes" rot="MR180">
+<attribute name="NAME" x="222.504" y="27.559" size="1.778" layer="95" font="vector" rot="MR180"/>
+<attribute name="VALUE" x="222.504" y="32.639" size="1.778" layer="96" font="vector" rot="MR180"/>
+</instance>
+<instance part="GND9" gate="1" x="220.98" y="20.32" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="220.98" y="20.066" size="1.778" layer="96" rot="MR0" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -2713,6 +2877,22 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="-71.12" y="12.7"/>
 <wire x1="-71.12" y1="12.7" x2="-71.12" y2="7.62" width="0.1524" layer="91"/>
 <pinref part="GND6" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="VSS"/>
+<pinref part="GND7" gate="1" pin="GND"/>
+<wire x1="152.4" y1="25.4" x2="139.7" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="25.4" x2="139.7" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="C10" gate="G$1" pin="1"/>
+<wire x1="139.7" y1="20.32" x2="139.7" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="22.86" x2="129.54" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="20.32" x2="139.7" y2="20.32" width="0.1524" layer="91"/>
+<junction x="139.7" y="20.32"/>
+</segment>
+<segment>
+<pinref part="C11" gate="G$1" pin="1"/>
+<pinref part="GND9" gate="1" pin="GND"/>
+<wire x1="220.98" y1="25.4" x2="220.98" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DONE" class="2">
@@ -2857,6 +3037,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-66.04" y1="30.48" x2="-66.04" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="C9" gate="G$1" pin="2"/>
 </segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="VDD"/>
+<pinref part="C11" gate="G$1" pin="2"/>
+<wire x1="203.2" y1="35.56" x2="220.98" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="35.56" x2="220.98" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="SUPPLY4" gate="G$1" pin="3.3V"/>
+<wire x1="220.98" y1="38.1" x2="220.98" y2="35.56" width="0.1524" layer="91"/>
+<junction x="220.98" y="35.56"/>
+</segment>
 </net>
 <net name="V_BATT" class="1">
 <segment>
@@ -2892,6 +3081,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-2.54" y1="45.72" x2="-2.54" y2="38.1" width="0.1524" layer="91"/>
 <junction x="-2.54" y="45.72"/>
 <pinref part="C6" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="VBAT"/>
+<wire x1="152.4" y1="30.48" x2="139.7" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="SUPPLY1" gate="G$1" pin="V_BATT"/>
+<wire x1="139.7" y1="30.48" x2="139.7" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="C10" gate="G$1" pin="2"/>
+<wire x1="139.7" y1="33.02" x2="139.7" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="30.48" x2="129.54" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="33.02" x2="139.7" y2="33.02" width="0.1524" layer="91"/>
+<junction x="139.7" y="33.02"/>
 </segment>
 </net>
 <net name="IO4_LED" class="0">
@@ -2942,6 +3142,23 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="L1" gate="G$1" pin="1"/>
 <wire x1="-30.48" y1="45.72" x2="-22.86" y2="45.72" width="0.1524" layer="91"/>
 <junction x="-30.48" y="45.72"/>
+</segment>
+</net>
+<net name="OSCI" class="0">
+<segment>
+<pinref part="Y1" gate="G$1" pin="1"/>
+<wire x1="167.64" y1="45.72" x2="167.64" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="40.64" x2="152.4" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="OSCI"/>
+<wire x1="152.4" y1="40.64" x2="152.4" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="OSCO" class="0">
+<segment>
+<pinref part="Y1" gate="G$1" pin="2"/>
+<pinref part="IC1" gate="G$1" pin="OSCO"/>
+<wire x1="147.32" y1="45.72" x2="147.32" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="33.02" x2="152.4" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
