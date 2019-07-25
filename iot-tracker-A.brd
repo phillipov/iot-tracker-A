@@ -1018,7 +1018,7 @@ design rules under a new name.</description>
 </element>
 </elements>
 <signals>
-<signal name="GND" class="1">
+<signal name="GND" class="1" airwireshidden="yes">
 <contactref element="C4" pad="1"/>
 <contactref element="R2" pad="2"/>
 <contactref element="U1" pad="9"/>
@@ -1103,7 +1103,7 @@ design rules under a new name.</description>
 <wire x1="-5.08" y1="-20.49" x2="-5.5" y2="-31.75" width="0" layer="19" extent="1-1"/>
 <wire x1="11.65" y1="9.767" x2="-5.08" y2="-20.49" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="3.3V" class="1">
+<signal name="3.3V" class="1" airwireshidden="yes">
 <contactref element="U1" pad="1"/>
 <contactref element="R1" pad="1"/>
 <contactref element="C2" pad="2"/>
@@ -1177,12 +1177,12 @@ design rules under a new name.</description>
 <contactref element="Y1" pad="P$1"/>
 <wire x1="3.83" y1="-2.04" x2="-12.68" y2="-30.48" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$1">
+<signal name="INTA">
 <contactref element="R9" pad="1"/>
 <contactref element="U2" pad="9"/>
 <wire x1="6.33" y1="-2.04" x2="-7.2" y2="-27.94" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$3">
+<signal name="OSCI">
 <contactref element="U2" pad="1"/>
 <contactref element="Y1" pad="P$2"/>
 <wire x1="3.83" y1="-1.54" x2="-10.18" y2="-30.48" width="0" layer="19" extent="1-1"/>
@@ -1201,7 +1201,7 @@ design rules under a new name.</description>
 <wire x1="6.33" y1="-3.54" x2="-12.28" y2="-39.37" width="0" layer="19" extent="1-1"/>
 <wire x1="1.9025" y1="11.981" x2="6.33" y2="-3.54" width="0" layer="19" extent="1-16"/>
 </signal>
-<signal name="N$2">
+<signal name="INTA_PNP_B">
 <contactref element="R9" pad="2"/>
 <contactref element="Q1" pad="B"/>
 <wire x1="-6.03" y1="-22.69" x2="-5.5" y2="-27.94" width="0" layer="19" extent="1-1"/>

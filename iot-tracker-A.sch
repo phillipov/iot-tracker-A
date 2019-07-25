@@ -3302,14 +3302,14 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <wire x1="40.64" y1="43.18" x2="50.8" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="INTA" class="0">
 <segment>
 <pinref part="R9" gate="G$1" pin="1"/>
 <pinref part="U2" gate="G$1" pin="!INTA(CLK)"/>
 <wire x1="132.08" y1="43.18" x2="101.6" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="OSCI" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="OSCI"/>
 <wire x1="50.8" y1="50.8" x2="50.8" y2="45.72" width="0.1524" layer="91"/>
@@ -3353,7 +3353,7 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <label x="114.3" y="10.16" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="INTA_PNP_B" class="0">
 <segment>
 <pinref part="R9" gate="G$1" pin="2"/>
 <pinref part="Q1" gate="G$1" pin="B"/>
