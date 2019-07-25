@@ -2750,38 +2750,38 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="V_BATT" device=""/>
 <part name="GND11" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="U3" library="IOT-Tracker-A" deviceset="TPS61021ADSGR" device=""/>
+<part name="U2" library="IOT-Tracker-A" deviceset="TPS61021ADSGR" device=""/>
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="V_BATT" device=""/>
 <part name="GND10" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="R7" library="SparkFun-Resistors" deviceset="300KOHM" device="-0603-1/10W-1%" value="316k"/>
-<part name="R8" library="SparkFun-Resistors" deviceset="100KOHM" device="-0603-1/10W-1%" value="100k"/>
+<part name="R4" library="SparkFun-Resistors" deviceset="300KOHM" device="-0603-1/10W-1%" value="316k"/>
+<part name="R5" library="SparkFun-Resistors" deviceset="100KOHM" device="-0603-1/10W-1%" value="100k"/>
 <part name="GND12" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="L1" library="IOT-Tracker-A" deviceset="DFE252012P-R47M=P2" device="" value="0.47uH"/>
 <part name="SUPPLY7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="GND4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="C6" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="10UF" device="-0603-6.3V-20%" package3d_urn="urn:adsk.eagle:package:37414/1" value="10uF"/>
 <part name="C7" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="10UF" device="-0603-6.3V-20%" package3d_urn="urn:adsk.eagle:package:37414/1" value="10uF"/>
-<part name="C8" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="10UF" device="-0603-6.3V-20%" package3d_urn="urn:adsk.eagle:package:37414/1" value="10uF"/>
 <part name="GND6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="C9" library="SparkFun-Capacitors" deviceset="10PF" device="-0603-50V-5%" value="10pF"/>
+<part name="C8" library="SparkFun-Capacitors" deviceset="10PF" device="-0603-50V-5%" value="10pF"/>
 <part name="C3" library="IOT-Tracker-A" deviceset="593D227X0010E2TE3" device="" value="220uF"/>
 <part name="R3" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="1k"/>
-<part name="C6" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="10UF" device="-0603-6.3V-20%" package3d_urn="urn:adsk.eagle:package:37414/1" value="10uF"/>
-<part name="U2" library="IOT-Tracker-A" deviceset="PCF85263ATL_AX" device=""/>
+<part name="C5" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="10UF" device="-0603-6.3V-20%" package3d_urn="urn:adsk.eagle:package:37414/1" value="10uF"/>
+<part name="U3" library="IOT-Tracker-A" deviceset="PCF85263ATL_AX" device=""/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="V_BATT" device=""/>
 <part name="GND7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
+<part name="C9" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
 <part name="C10" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
-<part name="C11" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
 <part name="GND9" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="Q1" library="transistor-pnp" library_urn="urn:adsk.eagle:library:399" deviceset="MMBT3906*" device="SMD" package3d_urn="urn:adsk.eagle:package:28748/2" technology="LT1" value="MMBT3906"/>
-<part name="R9" library="SparkFun-Resistors" deviceset="100KOHM" device="-0603-1/10W-1%" value="100k"/>
+<part name="R8" library="SparkFun-Resistors" deviceset="100KOHM" device="-0603-1/10W-1%" value="100k"/>
 <part name="SUPPLY10" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="V_BATT" device=""/>
-<part name="R10" library="SparkFun-Resistors" deviceset="100KOHM" device="-0603-1/10W-1%" value="100k"/>
+<part name="R9" library="SparkFun-Resistors" deviceset="100KOHM" device="-0603-1/10W-1%" value="100k"/>
 <part name="GND13" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="Y1" library="SparkFun-Clocks" deviceset="CRYSTAL-32.768KHZ" device="SMD-3.2X1.5" value="32.768kHz"/>
 <part name="GND15" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="R4" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="4.7KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="4.7k"/>
-<part name="R5" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="4.7KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="4.7k"/>
+<part name="R6" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="4.7KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="4.7k"/>
+<part name="R7" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="4.7KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="4.7k"/>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="GND2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 </parts>
@@ -2846,7 +2846,7 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <instance part="GND1" gate="1" x="-48.26" y="-38.1" smashed="yes">
 <attribute name="VALUE" x="-48.26" y="-38.354" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="U3" gate="G$1" x="-60.96" y="48.26" smashed="yes">
+<instance part="U2" gate="G$1" x="-60.96" y="48.26" smashed="yes">
 <attribute name="NAME" x="-54.61" y="55.88" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="-54.61" y="53.34" size="1.778" layer="96" align="center-left"/>
 </instance>
@@ -2856,11 +2856,11 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <instance part="GND10" gate="1" x="-45.72" y="20.32" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="-45.72" y="20.066" size="1.778" layer="96" rot="MR0" align="top-center"/>
 </instance>
-<instance part="R7" gate="G$1" x="-76.2" y="38.1" smashed="yes" rot="R90">
+<instance part="R4" gate="G$1" x="-76.2" y="38.1" smashed="yes" rot="R90">
 <attribute name="NAME" x="-77.724" y="38.1" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="-74.676" y="38.1" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="R8" gate="G$1" x="-76.2" y="53.34" smashed="yes" rot="R90">
+<instance part="R5" gate="G$1" x="-76.2" y="53.34" smashed="yes" rot="R90">
 <attribute name="NAME" x="-77.724" y="53.34" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="-74.676" y="53.34" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
@@ -2877,18 +2877,18 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <instance part="GND4" gate="1" x="-2.54" y="20.32" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="-2.54" y="20.066" size="1.778" layer="96" rot="MR0" align="top-center"/>
 </instance>
-<instance part="C7" gate="G$1" x="-76.2" y="20.32" smashed="yes">
+<instance part="C6" gate="G$1" x="-76.2" y="20.32" smashed="yes">
 <attribute name="NAME" x="-74.676" y="23.241" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="-74.676" y="18.161" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="C8" gate="G$1" x="-66.04" y="20.32" smashed="yes">
+<instance part="C7" gate="G$1" x="-66.04" y="20.32" smashed="yes">
 <attribute name="NAME" x="-64.516" y="23.241" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="-64.516" y="18.161" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="GND6" gate="1" x="-71.12" y="5.08" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="-71.12" y="4.826" size="1.778" layer="96" rot="MR0" align="top-center"/>
 </instance>
-<instance part="C9" gate="G$1" x="-86.36" y="38.1" smashed="yes" rot="MR0">
+<instance part="C8" gate="G$1" x="-86.36" y="38.1" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-87.884" y="41.021" size="1.778" layer="95" font="vector" rot="MR0"/>
 <attribute name="VALUE" x="-87.884" y="35.941" size="1.778" layer="96" font="vector" rot="MR0"/>
 </instance>
@@ -2900,11 +2900,11 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <attribute name="NAME" x="88.9" y="-36.576" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="88.9" y="-39.624" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="C6" gate="G$1" x="-2.54" y="33.02" smashed="yes">
+<instance part="C5" gate="G$1" x="-2.54" y="33.02" smashed="yes">
 <attribute name="NAME" x="-1.016" y="35.941" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="-1.016" y="30.861" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="U2" gate="G$1" x="50.8" y="45.72" smashed="yes">
+<instance part="U3" gate="G$1" x="50.8" y="45.72" smashed="yes">
 <attribute name="NAME" x="69.85" y="53.34" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="69.85" y="50.8" size="1.778" layer="96" align="center-left"/>
 </instance>
@@ -2917,11 +2917,11 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <instance part="SUPPLY4" gate="G$1" x="104.14" y="58.42" smashed="yes">
 <attribute name="VALUE" x="104.14" y="61.214" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="C10" gate="G$1" x="30.48" y="35.56" smashed="yes" rot="R180">
+<instance part="C9" gate="G$1" x="30.48" y="35.56" smashed="yes" rot="R180">
 <attribute name="NAME" x="28.956" y="32.639" size="1.778" layer="95" font="vector" rot="R180"/>
 <attribute name="VALUE" x="28.956" y="37.719" size="1.778" layer="96" font="vector" rot="R180"/>
 </instance>
-<instance part="C11" gate="G$1" x="111.76" y="55.88" smashed="yes" rot="MR90">
+<instance part="C10" gate="G$1" x="111.76" y="55.88" smashed="yes" rot="MR90">
 <attribute name="NAME" x="110.744" y="58.547" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="110.744" y="52.959" size="1.778" layer="96" font="vector" rot="MR180"/>
 </instance>
@@ -2932,14 +2932,14 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <attribute name="NAME" x="152.4" y="43.18" size="1.778" layer="95"/>
 <attribute name="VALUE" x="152.4" y="40.64" size="1.778" layer="96"/>
 </instance>
-<instance part="R9" gate="G$1" x="137.16" y="43.18" smashed="yes">
+<instance part="R8" gate="G$1" x="137.16" y="43.18" smashed="yes">
 <attribute name="NAME" x="137.16" y="44.704" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="137.16" y="41.656" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="SUPPLY10" gate="G$1" x="149.86" y="50.8" smashed="yes">
 <attribute name="VALUE" x="149.86" y="53.594" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="R10" gate="G$1" x="149.86" y="27.94" smashed="yes" rot="R90">
+<instance part="R9" gate="G$1" x="149.86" y="27.94" smashed="yes" rot="R90">
 <attribute name="NAME" x="148.336" y="27.94" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="151.384" y="27.94" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
@@ -2953,11 +2953,11 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <instance part="GND15" gate="1" x="30.48" y="25.4" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="30.48" y="25.146" size="1.778" layer="96" rot="MR0" align="top-center"/>
 </instance>
-<instance part="R4" gate="G$1" x="114.3" y="30.48" smashed="yes">
+<instance part="R6" gate="G$1" x="114.3" y="30.48" smashed="yes">
 <attribute name="NAME" x="114.3" y="32.004" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="114.3" y="28.956" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="R5" gate="G$1" x="114.3" y="22.86" smashed="yes">
+<instance part="R7" gate="G$1" x="114.3" y="22.86" smashed="yes">
 <attribute name="NAME" x="114.3" y="24.384" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="114.3" y="21.336" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
@@ -3023,14 +3023,14 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <wire x1="-48.26" y1="-25.4" x2="-48.26" y2="-35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U3" gate="G$1" pin="PGND"/>
+<pinref part="U2" gate="G$1" pin="PGND"/>
 <pinref part="GND10" gate="1" pin="GND"/>
 <wire x1="-45.72" y1="25.4" x2="-45.72" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R8" gate="G$1" pin="2"/>
+<pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="-76.2" y1="58.42" x2="-76.2" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$1" pin="AGND"/>
+<pinref part="U2" gate="G$1" pin="AGND"/>
 <wire x1="-76.2" y1="60.96" x2="-66.04" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="-66.04" y1="60.96" x2="-60.96" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="-60.96" y1="60.96" x2="-60.96" y2="48.26" width="0.1524" layer="91"/>
@@ -3041,12 +3041,12 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <segment>
 <pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="-2.54" y1="30.48" x2="-2.54" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="C6" gate="G$1" pin="2"/>
+<pinref part="C5" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="C7" gate="G$1" pin="2"/>
+<pinref part="C6" gate="G$1" pin="2"/>
 <wire x1="-76.2" y1="17.78" x2="-76.2" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="C8" gate="G$1" pin="2"/>
+<pinref part="C7" gate="G$1" pin="2"/>
 <wire x1="-76.2" y1="12.7" x2="-71.12" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="-71.12" y1="12.7" x2="-66.04" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="-66.04" y1="12.7" x2="-66.04" y2="17.78" width="0.1524" layer="91"/>
@@ -3055,23 +3055,23 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <pinref part="GND6" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="R10" gate="G$1" pin="1"/>
+<pinref part="R9" gate="G$1" pin="1"/>
 <pinref part="GND13" gate="1" pin="GND"/>
 <wire x1="149.86" y1="22.86" x2="149.86" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C10" gate="G$1" pin="1"/>
+<pinref part="C9" gate="G$1" pin="1"/>
 <wire x1="30.48" y1="30.48" x2="30.48" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="GND15" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="VSS"/>
+<pinref part="U3" gate="G$1" pin="VSS"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 <wire x1="50.8" y1="35.56" x2="48.26" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="35.56" x2="48.26" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C11" gate="G$1" pin="1"/>
+<pinref part="C10" gate="G$1" pin="1"/>
 <pinref part="GND9" gate="1" pin="GND"/>
 <wire x1="116.84" y1="55.88" x2="121.92" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="55.88" x2="121.92" y2="53.34" width="0.1524" layer="91"/>
@@ -3139,13 +3139,13 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 </net>
 <net name="DRVN" class="2">
 <segment>
-<pinref part="U3" gate="G$1" pin="EN"/>
+<pinref part="U2" gate="G$1" pin="EN"/>
 <wire x1="-30.48" y1="40.64" x2="-25.4" y2="40.64" width="0.1524" layer="91"/>
 <label x="-25.4" y="40.64" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="Q1" gate="G$1" pin="C"/>
-<pinref part="R10" gate="G$1" pin="2"/>
+<pinref part="R9" gate="G$1" pin="2"/>
 <wire x1="149.86" y1="38.1" x2="149.86" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="35.56" x2="149.86" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="35.56" x2="154.94" y2="35.56" width="0.1524" layer="91"/>
@@ -3179,14 +3179,14 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <pinref part="SUPPLY8" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
-<pinref part="U3" gate="G$1" pin="VOUT_1"/>
+<pinref part="U2" gate="G$1" pin="VOUT_1"/>
 <wire x1="-60.96" y1="43.18" x2="-60.96" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="-60.96" y1="40.64" x2="-60.96" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="-60.96" y1="30.48" x2="-66.04" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="R7" gate="G$1" pin="1"/>
+<pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="-66.04" y1="30.48" x2="-76.2" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="-76.2" y1="30.48" x2="-76.2" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$1" pin="VOUT_2"/>
+<pinref part="U2" gate="G$1" pin="VOUT_2"/>
 <junction x="-60.96" y="40.64"/>
 <wire x1="-66.04" y1="30.48" x2="-66.04" y2="35.56" width="0.1524" layer="91"/>
 <junction x="-66.04" y="30.48"/>
@@ -3194,27 +3194,27 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <wire x1="-86.36" y1="35.56" x2="-86.36" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="-86.36" y1="30.48" x2="-76.2" y2="30.48" width="0.1524" layer="91"/>
 <junction x="-76.2" y="30.48"/>
-<pinref part="C7" gate="G$1" pin="1"/>
+<pinref part="C6" gate="G$1" pin="1"/>
 <wire x1="-76.2" y1="30.48" x2="-76.2" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="C8" gate="G$1" pin="1"/>
+<pinref part="C7" gate="G$1" pin="1"/>
 <wire x1="-66.04" y1="30.48" x2="-66.04" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="C9" gate="G$1" pin="2"/>
+<pinref part="C8" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="VDD"/>
+<pinref part="U3" gate="G$1" pin="VDD"/>
 <wire x1="101.6" y1="45.72" x2="104.14" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="SUPPLY4" gate="G$1" pin="3.3V"/>
 <wire x1="104.14" y1="58.42" x2="104.14" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="C11" gate="G$1" pin="2"/>
+<pinref part="C10" gate="G$1" pin="2"/>
 <wire x1="104.14" y1="55.88" x2="104.14" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="55.88" x2="104.14" y2="55.88" width="0.1524" layer="91"/>
 <junction x="104.14" y="55.88"/>
 </segment>
 <segment>
-<pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="119.38" y1="22.86" x2="121.92" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="22.86" x2="121.92" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="121.92" y1="30.48" x2="121.92" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="30.48" x2="121.92" y2="30.48" width="0.1524" layer="91"/>
 <junction x="121.92" y="30.48"/>
@@ -3229,7 +3229,7 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <wire x1="-48.26" y1="-22.86" x2="-73.66" y2="-22.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U3" gate="G$1" pin="VIN"/>
+<pinref part="U2" gate="G$1" pin="VIN"/>
 <pinref part="SUPPLY6" gate="G$1" pin="V_BATT"/>
 <wire x1="-30.48" y1="48.26" x2="-25.4" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="-25.4" y1="48.26" x2="-25.4" y2="53.34" width="0.1524" layer="91"/>
@@ -3240,14 +3240,14 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <junction x="-25.4" y="53.34"/>
 <wire x1="-2.54" y1="45.72" x2="-2.54" y2="38.1" width="0.1524" layer="91"/>
 <junction x="-2.54" y="45.72"/>
-<pinref part="C6" gate="G$1" pin="1"/>
+<pinref part="C5" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="VBAT"/>
+<pinref part="U3" gate="G$1" pin="VBAT"/>
 <wire x1="50.8" y1="40.64" x2="30.48" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="SUPPLY1" gate="G$1" pin="V_BATT"/>
 <wire x1="30.48" y1="40.64" x2="30.48" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="C10" gate="G$1" pin="2"/>
+<pinref part="C9" gate="G$1" pin="2"/>
 <wire x1="30.48" y1="40.64" x2="30.48" y2="38.1" width="0.1524" layer="91"/>
 <junction x="30.48" y="40.64"/>
 </segment>
@@ -3271,22 +3271,22 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 </net>
 <net name="FB" class="0">
 <segment>
-<pinref part="U3" gate="G$1" pin="FB"/>
+<pinref part="U2" gate="G$1" pin="FB"/>
 <wire x1="-60.96" y1="45.72" x2="-76.2" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="R8" gate="G$1" pin="1"/>
+<pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="-76.2" y1="45.72" x2="-76.2" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="R7" gate="G$1" pin="2"/>
+<pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="-76.2" y1="43.18" x2="-76.2" y2="45.72" width="0.1524" layer="91"/>
 <junction x="-76.2" y="45.72"/>
 <wire x1="-86.36" y1="43.18" x2="-86.36" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="-86.36" y1="45.72" x2="-76.2" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="C9" gate="G$1" pin="1"/>
+<pinref part="C8" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="SW" class="0">
 <segment>
-<pinref part="U3" gate="G$1" pin="SW_1"/>
-<pinref part="U3" gate="G$1" pin="SW_2"/>
+<pinref part="U2" gate="G$1" pin="SW_1"/>
+<pinref part="U2" gate="G$1" pin="SW_2"/>
 <wire x1="-30.48" y1="43.18" x2="-30.48" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="L1" gate="G$1" pin="1"/>
 <wire x1="-30.48" y1="45.72" x2="-22.86" y2="45.72" width="0.1524" layer="91"/>
@@ -3295,7 +3295,7 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 </net>
 <net name="OSCO" class="0">
 <segment>
-<pinref part="U2" gate="G$1" pin="OSCO"/>
+<pinref part="U3" gate="G$1" pin="OSCO"/>
 <pinref part="Y1" gate="G$1" pin="1"/>
 <wire x1="43.18" y1="50.8" x2="40.64" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="50.8" x2="40.64" y2="43.18" width="0.1524" layer="91"/>
@@ -3304,14 +3304,14 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 </net>
 <net name="INTA" class="0">
 <segment>
-<pinref part="R9" gate="G$1" pin="1"/>
-<pinref part="U2" gate="G$1" pin="!INTA(CLK)"/>
+<pinref part="R8" gate="G$1" pin="1"/>
+<pinref part="U3" gate="G$1" pin="!INTA(CLK)"/>
 <wire x1="132.08" y1="43.18" x2="101.6" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="OSCI" class="0">
 <segment>
-<pinref part="U2" gate="G$1" pin="OSCI"/>
+<pinref part="U3" gate="G$1" pin="OSCI"/>
 <wire x1="50.8" y1="50.8" x2="50.8" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="Y1" gate="G$1" pin="2"/>
 <wire x1="50.8" y1="50.8" x2="48.26" y2="50.8" width="0.1524" layer="91"/>
@@ -3324,10 +3324,10 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <label x="-2.54" y="-50.8" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="SCL"/>
+<pinref part="U3" gate="G$1" pin="SCL"/>
 <wire x1="101.6" y1="38.1" x2="106.68" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="38.1" x2="106.68" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="106.68" y1="30.48" x2="106.68" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="30.48" x2="109.22" y2="30.48" width="0.1524" layer="91"/>
 <junction x="106.68" y="30.48"/>
@@ -3342,10 +3342,10 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <label x="-2.54" y="-40.64" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="SDA"/>
+<pinref part="U3" gate="G$1" pin="SDA"/>
 <wire x1="101.6" y1="35.56" x2="104.14" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="35.56" x2="104.14" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="104.14" y1="22.86" x2="109.22" y2="22.86" width="0.1524" layer="91"/>
 <junction x="104.14" y="22.86"/>
 <wire x1="104.14" y1="22.86" x2="104.14" y2="10.16" width="0.1524" layer="91"/>
@@ -3355,7 +3355,7 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 </net>
 <net name="INTA_PNP_B" class="0">
 <segment>
-<pinref part="R9" gate="G$1" pin="2"/>
+<pinref part="R8" gate="G$1" pin="2"/>
 <pinref part="Q1" gate="G$1" pin="B"/>
 <wire x1="142.24" y1="43.18" x2="144.78" y2="43.18" width="0.1524" layer="91"/>
 </segment>
