@@ -2718,6 +2718,151 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-Switches">
+<description>&lt;h3&gt;SparkFun Switches, Buttons, Encoders&lt;/h3&gt;
+In this library you'll find switches, buttons, joysticks, and anything that moves to create or disrupt an electrical connection.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="TACTILE_SWITCH_SMD_5.2MM">
+<description>&lt;h3&gt;Momentary Switch (Pushbutton) - SPST - SMD, 5.2mm Square&lt;/h3&gt;
+&lt;p&gt;Normally-open (NO) SPST momentary switches (buttons, pushbuttons).&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.sparkfun.com/datasheets/Components/Buttons/SMD-Button.pdf"&gt;Dimensional Drawing&lt;/a&gt;&lt;/p&gt;</description>
+<wire x1="-1.54" y1="-2.54" x2="-2.54" y2="-1.54" width="0.2032" layer="51"/>
+<wire x1="-2.54" y1="-1.24" x2="-2.54" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="1.54" x2="-1.54" y2="2.54" width="0.2032" layer="51"/>
+<wire x1="-1.54" y1="2.54" x2="1.54" y2="2.54" width="0.2032" layer="21"/>
+<wire x1="1.54" y1="2.54" x2="2.54" y2="1.54" width="0.2032" layer="51"/>
+<wire x1="2.54" y1="1.24" x2="2.54" y2="-1.24" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="-1.54" x2="1.54" y2="-2.54" width="0.2032" layer="51"/>
+<wire x1="1.54" y1="-2.54" x2="-1.54" y2="-2.54" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="1.905" y2="0.445" width="0.127" layer="51"/>
+<wire x1="1.905" y1="0.445" x2="2.16" y2="-0.01" width="0.127" layer="51"/>
+<wire x1="1.905" y1="-0.23" x2="1.905" y2="-1.115" width="0.127" layer="51"/>
+<circle x="0" y="0" radius="1.27" width="0.2032" layer="21"/>
+<smd name="1" x="-2.794" y="1.905" dx="0.762" dy="1.524" layer="1" rot="R90"/>
+<smd name="2" x="2.794" y="1.905" dx="0.762" dy="1.524" layer="1" rot="R90"/>
+<smd name="3" x="-2.794" y="-1.905" dx="0.762" dy="1.524" layer="1" rot="R90"/>
+<smd name="4" x="2.794" y="-1.905" dx="0.762" dy="1.524" layer="1" rot="R90"/>
+<text x="0" y="2.667" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
+<text x="0" y="-2.667" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
+</package>
+<package name="TACTILE_SWITCH_SMD_4.6X2.8MM">
+<description>&lt;h3&gt;Momentary Switch (Pushbutton) - SPST - SMD, 4.6 x 2.8mm&lt;/h3&gt;
+&lt;p&gt;Normally-open (NO) SPST momentary switches (buttons, pushbuttons).&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.ck-components.com/media/1479/kmr2.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
+<smd name="3" x="2.05" y="0.8" dx="0.9" dy="1" layer="1"/>
+<smd name="2" x="2.05" y="-0.8" dx="0.9" dy="1" layer="1"/>
+<smd name="1" x="-2.05" y="-0.8" dx="0.9" dy="1" layer="1"/>
+<smd name="4" x="-2.05" y="0.8" dx="0.9" dy="1" layer="1"/>
+<wire x1="-2.1" y1="1.4" x2="-2.1" y2="-1.4" width="0.127" layer="51"/>
+<wire x1="2.1" y1="-1.4" x2="2.1" y2="1.4" width="0.127" layer="51"/>
+<wire x1="-2.1" y1="1.4" x2="2.1" y2="1.4" width="0.127" layer="51"/>
+<wire x1="-2.1" y1="-1.4" x2="2.1" y2="-1.4" width="0.127" layer="51"/>
+<circle x="0" y="0" radius="0.805" width="0.127" layer="21"/>
+<wire x1="1.338" y1="-1.4" x2="-1.338" y2="-1.4" width="0.2032" layer="21"/>
+<wire x1="-1.338" y1="1.4" x2="1.338" y2="1.4" width="0.2032" layer="21"/>
+<wire x1="-2.1" y1="0.13" x2="-2.1" y2="-0.13" width="0.2032" layer="21"/>
+<wire x1="2.1" y1="-0.13" x2="2.1" y2="0.13" width="0.2032" layer="21"/>
+<rectangle x1="-2.3" y1="0.5" x2="-2.1" y2="1.1" layer="51"/>
+<rectangle x1="-2.3" y1="-1.1" x2="-2.1" y2="-0.5" layer="51"/>
+<rectangle x1="2.1" y1="-1.1" x2="2.3" y2="-0.5" layer="51" rot="R180"/>
+<rectangle x1="2.1" y1="0.5" x2="2.3" y2="1.1" layer="51" rot="R180"/>
+<text x="0" y="1.524" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
+<text x="0" y="-1.524" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
+</package>
+</packages>
+<symbols>
+<symbol name="SWITCH-MOMENTARY">
+<description>&lt;h3&gt;Momentary Switch (Pushbutton) - SPST - Two Circuits&lt;/h3&gt;
+&lt;p&gt;Normally-open (NO) SPST momentary switches (buttons, pushbuttons). Schematic symbol includes two switch circuits.&lt;/p&gt;</description>
+<wire x1="1.905" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="1.905" y1="4.445" x2="1.905" y2="3.175" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="4.445" x2="-1.905" y2="3.175" width="0.254" layer="94"/>
+<wire x1="1.905" y1="4.445" x2="0" y2="4.445" width="0.254" layer="94"/>
+<wire x1="0" y1="4.445" x2="-1.905" y2="4.445" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="0" y1="1.27" x2="0" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="0" y1="4.445" x2="0" y2="3.175" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="1.905" y2="1.27" width="0.254" layer="94"/>
+<circle x="-2.54" y="0" radius="0.127" width="0.4064" layer="94"/>
+<circle x="2.54" y="0" radius="0.127" width="0.4064" layer="94"/>
+<text x="0" y="4.826" size="1.778" layer="95" font="vector" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.794" size="1.778" layer="96" font="vector" align="top-center">&gt;VALUE</text>
+<pin name="1" x="-5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="2"/>
+<pin name="3" x="5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="4" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="2" x="-5.08" y="-2.54" visible="pad" length="short" direction="pas" swaplevel="2"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MOMENTARY-SWITCH-SPST-2" prefix="S" uservalue="yes">
+<description>&lt;h3&gt;Momentary Switch (Pushbutton) - SPST - Two Circuits&lt;/h3&gt;
+&lt;p&gt;Normally-open (NO) SPST momentary switches (buttons, pushbuttons). Schematic symbol includes two switch circuits.&lt;/p&gt;
+&lt;h4&gt;Variants&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;SMD-4.6MMX2.8MM&lt;/b&gt; -  4.60mm x 2.80mm Tactile Momentary Button Switch  - Used on &lt;a href="https://www.sparkfun.com/products/13664"&gt;SparkFun SAMD21 Mini Breakout&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;SMD-5.2MM&lt;/b&gt; - &lt;a href="https://www.sparkfun.com/products/8720"&gt;Mini Pushbutton Switch - SMD&lt;/a&gt; - Used on &lt;a href="https://www.sparkfun.com/products/11114"&gt;Arduino Pro Mini&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="SWITCH-MOMENTARY" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-SMD-5.2MM" package="TACTILE_SWITCH_SMD_5.2MM">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="SWCH-08247"/>
+<attribute name="SF_SKU" value="COM-08720"/>
+</technology>
+</technologies>
+</device>
+<device name="-SMD-4.6X2.8MM" package="TACTILE_SWITCH_SMD_4.6X2.8MM">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="SWCH-13065"/>
+</technology>
+</technologies>
+</device>
+<device name="-SMD-5.2MM-TALL" package="TACTILE_SWITCH_SMD_5.2MM">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="SWCH-14139"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2784,6 +2929,14 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <part name="R7" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="4.7KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="4.7k"/>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="GND2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="S1" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST-2" device="-SMD-5.2MM"/>
+<part name="GND14" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="R10" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="10KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="10k"/>
+<part name="SUPPLY3" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
+<part name="S2" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST-2" device="-SMD-5.2MM"/>
+<part name="GND16" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="R11" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="10KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="10k"/>
+<part name="SUPPLY11" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2830,21 +2983,21 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <instance part="SUPPLY5" gate="G$1" x="33.02" y="-2.54" smashed="yes">
 <attribute name="VALUE" x="33.02" y="0.254" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="JP1" gate="A" x="-76.2" y="-25.4" smashed="yes" rot="MR0">
-<attribute name="NAME" x="-77.47" y="-12.065" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-69.85" y="-38.1" size="1.778" layer="96" rot="MR0"/>
+<instance part="JP1" gate="A" x="-134.62" y="-25.4" smashed="yes" rot="MR0">
+<attribute name="NAME" x="-135.89" y="-12.065" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-128.27" y="-38.1" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="SUPPLY8" gate="G$1" x="-66.04" y="-12.7" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="-66.04" y="-9.906" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
+<instance part="SUPPLY8" gate="G$1" x="-124.46" y="-12.7" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="-124.46" y="-9.906" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY9" gate="G$1" x="-48.26" y="-12.7" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="-48.26" y="-9.906" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
+<instance part="SUPPLY9" gate="G$1" x="-106.68" y="-12.7" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="-106.68" y="-9.906" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
 </instance>
-<instance part="GND11" gate="1" x="-55.88" y="-38.1" smashed="yes">
-<attribute name="VALUE" x="-55.88" y="-38.354" size="1.778" layer="96" align="top-center"/>
+<instance part="GND11" gate="1" x="-114.3" y="-38.1" smashed="yes">
+<attribute name="VALUE" x="-114.3" y="-38.354" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="GND1" gate="1" x="-48.26" y="-38.1" smashed="yes">
-<attribute name="VALUE" x="-48.26" y="-38.354" size="1.778" layer="96" align="top-center"/>
+<instance part="GND1" gate="1" x="-106.68" y="-38.1" smashed="yes">
+<attribute name="VALUE" x="-106.68" y="-38.354" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="U2" gate="G$1" x="-60.96" y="48.26" smashed="yes">
 <attribute name="NAME" x="-54.61" y="55.88" size="1.778" layer="95" align="center-left"/>
@@ -2967,6 +3120,34 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <instance part="GND2" gate="1" x="99.06" y="-45.72" smashed="yes">
 <attribute name="VALUE" x="99.06" y="-45.974" size="1.778" layer="96" align="top-center"/>
 </instance>
+<instance part="S1" gate="G$1" x="-55.88" y="-33.02" smashed="yes">
+<attribute name="NAME" x="-55.88" y="-28.194" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="-55.88" y="-35.814" size="1.778" layer="96" font="vector" align="top-center"/>
+</instance>
+<instance part="GND14" gate="1" x="-43.18" y="-40.64" smashed="yes">
+<attribute name="VALUE" x="-43.18" y="-40.894" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="R10" gate="G$1" x="-68.58" y="-25.4" smashed="yes" rot="R90">
+<attribute name="NAME" x="-70.104" y="-25.4" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="-67.056" y="-25.4" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+</instance>
+<instance part="SUPPLY3" gate="G$1" x="-68.58" y="-17.78" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="-68.58" y="-14.986" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
+</instance>
+<instance part="S2" gate="G$1" x="-55.88" y="-58.42" smashed="yes">
+<attribute name="NAME" x="-55.88" y="-53.594" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="-55.88" y="-61.214" size="1.778" layer="96" font="vector" align="top-center"/>
+</instance>
+<instance part="GND16" gate="1" x="-43.18" y="-66.04" smashed="yes">
+<attribute name="VALUE" x="-43.18" y="-66.294" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="R11" gate="G$1" x="-68.58" y="-50.8" smashed="yes" rot="R90">
+<attribute name="NAME" x="-70.104" y="-50.8" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="-67.056" y="-50.8" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+</instance>
+<instance part="SUPPLY11" gate="G$1" x="-68.58" y="-43.18" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="-68.58" y="-40.386" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -3012,15 +3193,15 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="6"/>
-<wire x1="-73.66" y1="-27.94" x2="-55.88" y2="-27.94" width="0.1524" layer="91"/>
-<wire x1="-55.88" y1="-27.94" x2="-55.88" y2="-35.56" width="0.1524" layer="91"/>
+<wire x1="-132.08" y1="-27.94" x2="-114.3" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="-114.3" y1="-27.94" x2="-114.3" y2="-35.56" width="0.1524" layer="91"/>
 <pinref part="GND11" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="5"/>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="-73.66" y1="-25.4" x2="-48.26" y2="-25.4" width="0.1524" layer="91"/>
-<wire x1="-48.26" y1="-25.4" x2="-48.26" y2="-35.56" width="0.1524" layer="91"/>
+<wire x1="-132.08" y1="-25.4" x2="-106.68" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="-106.68" y1="-25.4" x2="-106.68" y2="-35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="PGND"/>
@@ -3082,6 +3263,18 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <wire x1="99.06" y1="-38.1" x2="99.06" y2="-43.18" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="S1" gate="G$1" pin="3"/>
+<wire x1="-50.8" y1="-33.02" x2="-43.18" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="-43.18" y1="-33.02" x2="-43.18" y2="-38.1" width="0.1524" layer="91"/>
+<pinref part="GND14" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="S2" gate="G$1" pin="3"/>
+<wire x1="-50.8" y1="-58.42" x2="-43.18" y2="-58.42" width="0.1524" layer="91"/>
+<wire x1="-43.18" y1="-58.42" x2="-43.18" y2="-63.5" width="0.1524" layer="91"/>
+<pinref part="GND16" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="IO15" class="2">
 <segment>
@@ -3098,8 +3291,8 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="8"/>
-<wire x1="-73.66" y1="-33.02" x2="-63.5" y2="-33.02" width="0.1524" layer="91"/>
-<label x="-63.5" y="-33.02" size="1.778" layer="95"/>
+<wire x1="-132.08" y1="-33.02" x2="-121.92" y2="-33.02" width="0.1524" layer="91"/>
+<label x="-121.92" y="-33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TX" class="3">
@@ -3110,8 +3303,8 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="7"/>
-<wire x1="-73.66" y1="-30.48" x2="-63.5" y2="-30.48" width="0.1524" layer="91"/>
-<label x="-63.5" y="-30.48" size="1.778" layer="95"/>
+<wire x1="-132.08" y1="-30.48" x2="-121.92" y2="-30.48" width="0.1524" layer="91"/>
+<label x="-121.92" y="-30.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BOOT" class="2">
@@ -3122,8 +3315,17 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="2"/>
-<wire x1="-73.66" y1="-17.78" x2="-63.5" y2="-17.78" width="0.1524" layer="91"/>
-<label x="-63.5" y="-17.78" size="1.778" layer="95"/>
+<wire x1="-132.08" y1="-17.78" x2="-121.92" y2="-17.78" width="0.1524" layer="91"/>
+<label x="-121.92" y="-17.78" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R11" gate="G$1" pin="1"/>
+<pinref part="S2" gate="G$1" pin="1"/>
+<wire x1="-68.58" y1="-55.88" x2="-68.58" y2="-58.42" width="0.1524" layer="91"/>
+<wire x1="-68.58" y1="-58.42" x2="-60.96" y2="-58.42" width="0.1524" layer="91"/>
+<wire x1="-68.58" y1="-58.42" x2="-76.2" y2="-58.42" width="0.1524" layer="91"/>
+<junction x="-68.58" y="-58.42"/>
+<label x="-76.2" y="-58.42" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="EN" class="2">
@@ -3174,8 +3376,8 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="1"/>
-<wire x1="-73.66" y1="-15.24" x2="-66.04" y2="-15.24" width="0.1524" layer="91"/>
-<wire x1="-66.04" y1="-15.24" x2="-66.04" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="-132.08" y1="-15.24" x2="-124.46" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="-124.46" y1="-15.24" x2="-124.46" y2="-12.7" width="0.1524" layer="91"/>
 <pinref part="SUPPLY8" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
@@ -3220,13 +3422,23 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <junction x="121.92" y="30.48"/>
 <pinref part="SUPPLY2" gate="G$1" pin="3.3V"/>
 </segment>
+<segment>
+<pinref part="R10" gate="G$1" pin="2"/>
+<pinref part="SUPPLY3" gate="G$1" pin="3.3V"/>
+<wire x1="-68.58" y1="-20.32" x2="-68.58" y2="-17.78" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R11" gate="G$1" pin="2"/>
+<pinref part="SUPPLY11" gate="G$1" pin="3.3V"/>
+<wire x1="-68.58" y1="-45.72" x2="-68.58" y2="-43.18" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="V_BATT" class="1">
 <segment>
 <pinref part="SUPPLY9" gate="G$1" pin="V_BATT"/>
 <pinref part="JP1" gate="A" pin="4"/>
-<wire x1="-48.26" y1="-12.7" x2="-48.26" y2="-22.86" width="0.1524" layer="91"/>
-<wire x1="-48.26" y1="-22.86" x2="-73.66" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="-106.68" y1="-12.7" x2="-106.68" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="-106.68" y1="-22.86" x2="-132.08" y2="-22.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="VIN"/>
@@ -3265,8 +3477,17 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="3"/>
-<wire x1="-73.66" y1="-20.32" x2="-63.5" y2="-20.32" width="0.1524" layer="91"/>
-<label x="-63.5" y="-20.32" size="1.778" layer="95"/>
+<wire x1="-132.08" y1="-20.32" x2="-121.92" y2="-20.32" width="0.1524" layer="91"/>
+<label x="-121.92" y="-20.32" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="S1" gate="G$1" pin="1"/>
+<wire x1="-60.96" y1="-33.02" x2="-68.58" y2="-33.02" width="0.1524" layer="91"/>
+<pinref part="R10" gate="G$1" pin="1"/>
+<wire x1="-68.58" y1="-33.02" x2="-68.58" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="-68.58" y1="-33.02" x2="-76.2" y2="-33.02" width="0.1524" layer="91"/>
+<junction x="-68.58" y="-33.02"/>
+<label x="-76.2" y="-33.02" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="FB" class="0">
