@@ -4442,26 +4442,26 @@ Switches electronic signals</description>
 </net>
 <net name="RX" class="3">
 <segment>
-<pinref part="J1" gate="A" pin="4"/>
-<wire x1="-127" y1="-35.56" x2="-116.84" y2="-35.56" width="0.1524" layer="91"/>
-<label x="-116.84" y="-35.56" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U1" gate="G$1" pin="RXD"/>
 <wire x1="33.02" y1="-20.32" x2="38.1" y2="-20.32" width="0.1524" layer="91"/>
 <label x="38.1" y="-20.32" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="TX" class="3">
 <segment>
 <pinref part="J1" gate="A" pin="3"/>
 <wire x1="-127" y1="-33.02" x2="-116.84" y2="-33.02" width="0.1524" layer="91"/>
 <label x="-116.84" y="-33.02" size="1.778" layer="95"/>
 </segment>
+</net>
+<net name="TX" class="3">
 <segment>
 <pinref part="U1" gate="G$1" pin="TXD"/>
 <wire x1="33.02" y1="-17.78" x2="38.1" y2="-17.78" width="0.1524" layer="91"/>
 <label x="38.1" y="-17.78" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J1" gate="A" pin="4"/>
+<wire x1="-127" y1="-35.56" x2="-116.84" y2="-35.56" width="0.1524" layer="91"/>
+<label x="-116.84" y="-35.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BOOT" class="2">
